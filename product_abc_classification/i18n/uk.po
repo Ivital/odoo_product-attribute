@@ -248,3 +248,96 @@ msgstr "Тип ABC-класифікації"
 #: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__website_message_ids
 msgid "Website Messages"
 msgstr "Повідомлення вебсайту"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_form_view
+msgid "ABC Classification Product Level"
+msgstr "ABC-класифікація на рівні товару"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_product__abc_classification_profile_updatable_from_category
+msgid "Abc Classification Profile Updatable From Category"
+msgstr "Профіль ABC-класифікації можна оновлювати з категорії"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Abc classification"
+msgstr "ABC-класифікація"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Additional Information"
+msgstr "Додаткова інформація"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__auto_apply_computed_value
+msgid "Auto Apply Computed Value"
+msgstr "Автоматично застосувати обчислене значення"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__level_id
+msgid "Classification level"
+msgstr "Рівень класифікації"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Classification not in sync with computed"
+msgstr "Класифікація не синхронізована з обчисленою"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_form_view
+msgid "Computed level differs from the specified level"
+msgstr "Обчислений рівень відрізняється від заданого"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__flag
+msgid ""
+"If True, this means that the manual classification is different from the "
+"computed one"
+msgstr ""
+"Якщо True, це означає, що ручна класифікація відрізняється від обчисленої"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_product_level__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_product_level__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__manual_level_id
+msgid "Manual classification level"
+msgstr "Рівень ручної класифікації"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_product_level__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_product_level__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: product_abc_classification
+#: model:ir.actions.server,name:product_abc_classification.ir_cron_product_abc_classification_ir_actions_server
+msgid "Perform the product ABC Classification"
+msgstr "Виконати ABC-класифікацію товарів"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__period
+msgid "Period on which to compute the classification (Days)"
+msgstr "Період для обчислення класифікації (дні)"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_product_level__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "e.g. Sale Profile"
+msgstr "напр. Профіль продажу"

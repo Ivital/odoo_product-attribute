@@ -22,3 +22,13 @@ msgstr "Значення атрибутів"
 #: model:ir.model.fields,field_description:product_attribute_value_dependent_mixin.field_attribute_value_dependent_mixin__product_tmpl_id
 msgid "Product Template"
 msgstr "Шаблон товару"
+
+#. module: product_attribute_value_dependent_mixin
+#: model:ir.model.fields,field_description:product_attribute_value_dependent_mixin.field_attribute_value_dependent_mixin__available_attribute_value_domain
+msgid "Available Attribute Value Domain"
+msgstr "Домен доступних значень атрибута"
+
+#. module: product_attribute_value_dependent_mixin
+#: model:ir.model.fields,field_description:product_attribute_value_dependent_mixin.field_attribute_value_dependent_mixin__available_product_domain
+msgid "Available Product Domain"
+msgstr "Домен доступних товарів"

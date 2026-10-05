@@ -79,3 +79,53 @@ msgstr "Стан товару"
 #: model_terms:ir.ui.view,arch_db:product_status.product_template_only_form_view
 msgid "Product Status"
 msgstr "Статус товару"
+
+#. module: product_status
+#: model:ir.model.fields,help:product_status.field_product_product__new_until
+#: model:ir.model.fields,help:product_status.field_product_product__tmpl_new_until
+#: model:ir.model.fields,help:product_status.field_product_template__new_until
+msgid "New product, and you want to warn your client for a certain time"
+msgstr ""
+"Новий товар, про який потрібно попереджати клієнта протягом певного часу"
+
+#. module: product_status
+#: model:ir.actions.server,name:product_status.cron_recompute_product_state_ir_actions_server
+msgid "Recompute Product State"
+msgstr "Перерахувати стан товару"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_discontinued_until
+msgid "Template Discontinued until"
+msgstr "Шаблон припинено до"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_end_of_life_date
+msgid "Template End-of-life"
+msgstr "Кінець життєвого циклу шаблону"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__tmpl_new_until
+msgid "Template New until"
+msgstr "Новий шаблон до"
+
+#. module: product_status
+#: model:ir.model.fields,help:product_status.field_product_product__discontinued_until
+#: model:ir.model.fields,help:product_status.field_product_product__tmpl_discontinued_until
+#: model:ir.model.fields,help:product_status.field_product_template__discontinued_until
+msgid ""
+"When the product is discontinued for a certain time, to warn your "
+"client/avoid order during this downtime."
+msgstr ""
+"Коли товар тимчасово знято з продажу, щоб попереджати клієнта/запобігати "
+"замовленню протягом цього періоду."
+
+#. module: product_status
+#: model:ir.model.fields,help:product_status.field_product_product__end_of_life_date
+#: model:ir.model.fields,help:product_status.field_product_product__tmpl_end_of_life_date
+#: model:ir.model.fields,help:product_status.field_product_template__end_of_life_date
+msgid ""
+"When the product is end-of-life, and you want to warn your client/avoid "
+"order in the future."
+msgstr ""
+"Коли життєвий цикл товару завершено й потрібно попереджати "
+"клієнта/запобігати замовленню в майбутньому."

@@ -90,3 +90,14 @@ msgstr ""
 "                    Цей процес встановлює попередній день перед новою датою початку як дату завершення вихідного запису.\n"
 "                    <br/>\n"
 "                    <br/>"
+
+#. module: product_supplierinfo_revision
+#: model:ir.actions.act_window,name:product_supplierinfo_revision.supplierinfo_duplicate_wizard_action
+msgid "Duplicate Supplier Info"
+msgstr "Дублювати інформацію про постачальника"
+
+#. module: product_supplierinfo_revision
+#: model:ir.model.fields,help:product_supplierinfo_revision.field_product_customerinfo__previous_price
+#: model:ir.model.fields,help:product_supplierinfo_revision.field_product_supplierinfo__previous_price
+msgid "The price to purchase a product"
+msgstr "Ціна закупівлі товару"

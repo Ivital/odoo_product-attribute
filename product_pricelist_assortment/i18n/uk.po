@@ -257,3 +257,103 @@ msgstr "Метод округлення"
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__filter_supplier_id
 msgid "Supplier filter"
 msgstr "Фільтр постачальника"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__product_variant_count
+msgid "# Product Variants"
+msgstr "Кількість варіантів товару"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid ""
+"<span class=\"o_form_label\">\n"
+"                        New Price =\n"
+"                    </span>"
+msgstr ""
+"<span class=\"o_form_label\">\n"
+"                        Нова ціна =\n"
+"                    </span>"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid ""
+"<span invisible=\"base != 'list_price'\">\n"
+"                        Sales Price  -  </span>\n"
+"                        <span invisible=\"base != 'standard_price'\">\n"
+"                        Cost  -  </span>\n"
+"                        <span invisible=\"base != 'pricelist'\">\n"
+"                        Other Pricelist  -  </span>"
+msgstr ""
+"<span invisible=\"base != 'list_price'\">\n"
+"                        Ціна продажу  -  </span>\n"
+"                        <span invisible=\"base != 'standard_price'\">\n"
+"                        Собівартість  -  </span>\n"
+"                        <span invisible=\"base != 'pricelist'\">\n"
+"                        Інший прайс-лист  -  </span>"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_search
+msgid "Assortment Filter"
+msgstr "Фільтр асортименту"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__display_applied_on
+msgid "Display Applied On"
+msgstr "Показувати застосовано до"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,help:product_pricelist_assortment.field_product_pricelist_assortment_item__fixed_currency_rate
+#: model:ir.model.fields,help:product_pricelist_assortment.field_product_pricelist_assortment_item__inverse_fixed_currency_rate
+msgid ""
+"If set (different to 0.0), the currency conversion will ignore the actual "
+"currency rate and always use the fixed currency rate."
+msgstr ""
+"Якщо встановлено (відмінне від 0.0), перерахунок валюти ігноруватиме "
+"фактичний валютний курс і завжди використовуватиме фіксований курс."
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_form_view
+msgid "Launch assortment update"
+msgstr "Запустити оновлення асортименту"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__price_max_margin
+msgid "Max. Price Margin"
+msgstr "Макс. маржа ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__price_min_margin
+msgid "Min. Price Margin"
+msgstr "Мін. маржа ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__percent_price
+msgid "Percentage Price"
+msgstr "Ціна у відсотках"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid "Price Computation"
+msgstr "Розрахунок ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.actions.server,name:product_pricelist_assortment.ir_cron_product_pricelist_assortment_ir_actions_server
+msgid "Pricelist Assortment - Launch update"
+msgstr "Асортимент прайс-листа — запустити оновлення"
+
+#. module: product_pricelist_assortment
+#: model:ir.actions.act_window,name:product_pricelist_assortment.product_pricelist_assortment_item_action
+msgid "Pricelist Assortment Items"
+msgstr "Елементи асортименту прайс-листа"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid ""
+"The computed price is expressed in the default Unit of Measure of the "
+"product."
+msgstr "Обчислена ціна виражена у стандартній одиниці виміру товару."
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__product_uom
+msgid "Unit of Measure Name"
+msgstr "Назва одиниці виміру"

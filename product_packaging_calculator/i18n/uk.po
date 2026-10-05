@@ -17,3 +17,8 @@ msgstr "Обчислює кількість товару для комплект
 #: model:ir.model.fields,field_description:product_packaging_calculator.field_product_qty_by_packaging_mixin__product_qty_by_packaging_display
 msgid "Qty by packaging"
 msgstr "Кількість за пакуванням"
+
+#. module: product_packaging_calculator
+#: model:ir.model.fields,field_description:product_packaging_calculator.field_product_product__packaging_contained_mapping
+msgid "Packaging Contained Mapping"
+msgstr "Зіставлення вмісту пакування"

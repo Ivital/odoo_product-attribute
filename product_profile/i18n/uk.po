@@ -89,3 +89,14 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:product_profile.field_product_profile__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_product_product__profile_explanation
+#: model:ir.model.fields,help:product_profile.field_product_profile__explanation
+#: model:ir.model.fields,help:product_profile.field_product_template__profile_explanation
+msgid ""
+"An explanation on the selected profile\n"
+"(not synchronized with product.template fields)"
+msgstr ""
+"Пояснення до вибраного профілю\n"
+"(не синхронізується з полями product.template)"

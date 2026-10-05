@@ -59,3 +59,18 @@ msgstr "Поріг стану запасів"
 #: model_terms:ir.ui.view,arch_db:product_stock_state.view_product_template_form
 msgid "Stock Threshold"
 msgstr "Поріг запасів"
+
+#. module: product_stock_state
+#: model_terms:ir.ui.view,arch_db:product_stock_state.res_config_settings_view_form_threshold
+msgid "Product stock thresholds"
+msgstr "Порогові значення запасів товару"
+
+#. module: product_stock_state
+#: model_terms:ir.ui.view,arch_db:product_stock_state.res_config_settings_view_form_threshold
+msgid "Set stock state threshold"
+msgstr "Встановити поріг стану запасів"
+
+#. module: product_stock_state
+#: model_terms:ir.ui.view,arch_db:product_stock_state.res_company_view_form_threshold
+msgid "Stock parameters"
+msgstr "Параметри запасів"

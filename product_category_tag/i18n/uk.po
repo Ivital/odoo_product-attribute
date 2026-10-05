@@ -61,3 +61,13 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:product_category_tag.field_product_category_tag__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: product_category_tag
+#: model_terms:ir.actions.act_window,help:product_category_tag.action_product_category_tag
+msgid "Create new tags for your product categories."
+msgstr "Створити нові теги для категорій товарів."
+
+#. module: product_category_tag
+#: model:ir.model.constraint,message:product_category_tag.constraint_product_category_tag_category_tag_name_uniq
+msgid "Tag name already exists!"
+msgstr "Тег із такою назвою вже існує!"

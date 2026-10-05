@@ -87,3 +87,8 @@ msgstr "Назва іншої ціни"
 #: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price_name__name
 msgid "Price Field Name"
 msgstr "Назва поля ціни"
+
+#. module: product_multi_price
+#: model_terms:ir.ui.view,arch_db:product_multi_price.product_multi_price_form_view
+msgid "Product Multi Price"
+msgstr "Кілька цін товару"

@@ -18,3 +18,54 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_list_price_from_pricelist.field_res_config_settings__base_pricelist_compute_price_id
 msgid "Recomputing pricelist"
 msgstr "Перерахунок прайс-листа"
+
+#. module: product_list_price_from_pricelist
+#: model_terms:ir.ui.view,arch_db:product_list_price_from_pricelist.view_res_config_settings_form
+msgid ""
+"Are you sure you want to update the prices for all products?. This "
+"operations cannot be undone."
+msgstr ""
+"Ви впевнені, що хочете оновити ціни для всіх товарів? Цю операцію неможливо "
+"скасувати."
+
+#. module: product_list_price_from_pricelist
+#: model_terms:ir.ui.view,arch_db:product_list_price_from_pricelist.view_res_config_settings_form
+msgid ""
+"If set, prices will be computed only if the company in the product matches the company specified here or is empty.\n"
+"                                Otherwise, prices will be computed based on the current company."
+msgstr ""
+"Якщо встановлено, ціни обчислюватимуться лише тоді, коли компанія в товарі збігається з указаною тут компанією або не задана.\n"
+"                                В іншому разі ціни обчислюватимуться на основі поточної компанії."
+
+#. module: product_list_price_from_pricelist
+#: model:ir.model.fields,field_description:product_list_price_from_pricelist.field_res_config_settings__main_company_compute_price_id
+msgid "Main company for compute sale price"
+msgstr "Основна компанія для розрахунку ціни продажу"
+
+#. module: product_list_price_from_pricelist
+#: model:ir.actions.server,name:product_list_price_from_pricelist.ir_cron_update_product_sale_price_ir_actions_server
+msgid "Product sale price: Update price from pricelist"
+msgstr "Ціна продажу товару: оновити ціну з прайс-листа"
+
+#. module: product_list_price_from_pricelist
+#: model_terms:ir.ui.view,arch_db:product_list_price_from_pricelist.view_res_config_settings_form
+msgid ""
+"Set the base pricelist to compute the sales price for all the products.\n"
+"                        <br/>"
+msgstr ""
+"Задайте базовий прайс-лист для обчислення ціни продажу всіх товарів.\n"
+"                        <br/>"
+
+#. module: product_list_price_from_pricelist
+#: model_terms:ir.ui.view,arch_db:product_list_price_from_pricelist.view_res_config_settings_form
+msgid "Update product prices"
+msgstr "Оновити ціни товарів"
+
+#. module: product_list_price_from_pricelist
+#: model_terms:ir.ui.view,arch_db:product_list_price_from_pricelist.view_res_config_settings_form
+msgid ""
+"WARNING: Prices are always computed for a quantity of 1, so rules with a "
+"minimum quantity higher than that won't be taken into account"
+msgstr ""
+"ПОПЕРЕДЖЕННЯ: ціни завжди обчислюються для кількості 1, тому правила з "
+"мінімальною кількістю більше 1 не враховуватимуться"

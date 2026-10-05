@@ -62,3 +62,14 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:product_simple_seasonality.field_seasonality__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: product_simple_seasonality
+#: model:ir.model.fields,help:product_simple_seasonality.field_product_packaging__seasonality_ids
+#: model:ir.model.fields,help:product_simple_seasonality.field_product_product__seasonality_ids
+#: model:ir.model.fields,help:product_simple_seasonality.field_product_template__seasonality_ids
+msgid ""
+"This is an informative field to track which seasons this product should be "
+"associated with"
+msgstr ""
+"Інформаційне поле для відстеження сезонів, з якими має бути пов'язаний цей "
+"товар"

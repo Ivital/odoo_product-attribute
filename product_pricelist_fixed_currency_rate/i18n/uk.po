@@ -52,3 +52,13 @@ msgstr "Зворотний фіксований курс валюти"
 #: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__is_fixed_currency_rate_applicable
 msgid "Is Fixed Currency Rate Applicable"
 msgstr "Застосовується фіксований курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,help:product_pricelist_fixed_currency_rate.field_product_pricelist_item__fixed_currency_rate
+#: model:ir.model.fields,help:product_pricelist_fixed_currency_rate.field_product_pricelist_item__inverse_fixed_currency_rate
+msgid ""
+"If set (different to 0.0), the currency conversion will ignore the actual "
+"currency rate and always use the fixed currency rate."
+msgstr ""
+"Якщо встановлено (відмінне від 0.0), перерахунок валюти ігноруватиме "
+"фактичний валютний курс і завжди використовуватиме фіксований курс."

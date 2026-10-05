@@ -111,3 +111,18 @@ msgstr "Ідентифікатор моделі"
 #: model:ir.model.fields,field_description:product_eprel.field_product_category_eprel__name
 msgid "Product group"
 msgstr "Група товарів"
+
+#. module: product_eprel
+#: model_terms:ir.ui.view,arch_db:product_eprel.res_config_settings_view_form
+msgid "Authentication key for accessing EPREL product data via API"
+msgstr "Ключ автентифікації для доступу до даних товарів EPREL через API"
+
+#. module: product_eprel
+#: model:ir.actions.server,name:product_eprel.ir_cron_eprel_sync_products_ir_actions_server
+msgid "EPREL: Sync Product Data"
+msgstr "EPREL: синхронізувати дані товару"
+
+#. module: product_eprel
+#: model_terms:ir.ui.view,arch_db:product_eprel.res_config_settings_view_form
+msgid "Eprel Integration"
+msgstr "Інтеграція EPREL"

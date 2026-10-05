@@ -121,3 +121,53 @@ msgstr "Цього року"
 #: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_classification_profile__profile_type
 msgid "Type of ABC classification"
 msgstr "Тип ABC-класифікації"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields.selection,name:product_abc_classification_sale_stock.selection__abc_classification_profile__profile_type__sale_stock
+msgid "Based on the count of delivered sale order line by product"
+msgstr "На основі кількості доставлених рядків продажу за товаром"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__cumulated_percentage
+msgid "Cumulated Percentage"
+msgstr "Накопичений відсоток"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__cumulated_percentage_products
+msgid "Cumulated percentage of products"
+msgstr "Накопичений відсоток товарів"
+
+#. module: product_abc_classification_sale_stock
+#: model_terms:ir.ui.view,arch_db:product_abc_classification_sale_stock.abc_sale_stock_level_history_search_view
+msgid "Data collected this year"
+msgstr "Дані, зібрані цього року"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__number_so_lines
+msgid "Number of sale order lines"
+msgstr "Кількість рядків замовлення на продаж"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__percentage_products
+msgid "Percentage of products"
+msgstr "Відсоток товарів"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_classification_product_level__sale_stock_level_history_ids
+msgid "Sale Stock Level History"
+msgstr "Історія рівня запасів продажу"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__sum_cumulated_percentages
+msgid "Sum of cummulated percentages"
+msgstr "Сума накопичених відсотків"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__total_so_lines
+msgid "Total of sale order lines"
+msgstr "Усього рядків замовлення на продаж"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__total_products
+msgid "Total products analysed"
+msgstr "Усього проаналізовано товарів"

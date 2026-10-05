@@ -41,3 +41,18 @@ msgstr "Од. вим."
 #: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
 msgid "Date:"
 msgstr "Дата:"
+
+#. module: product_pricelist_direct_print_xlsx
+#: model:ir.actions.report,name:product_pricelist_direct_print_xlsx.report
+msgid "Product Pricelist XLSX"
+msgstr "Прайс-лист товарів XLSX"
+
+#. module: product_pricelist_direct_print_xlsx
+#: model:ir.model.fields,field_description:product_pricelist_direct_print_xlsx.field_product_pricelist_print__show_internal_category
+msgid "Show internal categories"
+msgstr "Показувати внутрішні категорії"
+
+#. module: product_pricelist_direct_print_xlsx
+#: model_terms:ir.ui.view,arch_db:product_pricelist_direct_print_xlsx.view_product_pricelist_print
+msgid "XLSX Export Options"
+msgstr "Параметри експорту XLSX"

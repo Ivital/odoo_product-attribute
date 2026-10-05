@@ -179,3 +179,28 @@ msgstr "Кількість наліпок"
 #: model:ir.model.fields,field_description:product_sticker.field_product_sticker__show_sticker_note
 msgid "Sticker Note"
 msgstr "Наліпка-примітка"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_kanban_view
+msgid "<strong>Attribute:</strong>"
+msgstr "<strong>Атрибут:</strong>"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_kanban_view
+msgid "<strong>Category:</strong>"
+msgstr "<strong>Категорія:</strong>"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Display Name with the Image"
+msgstr "Показувати назву із зображенням"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Product Attribute Value"
+msgstr "Значення атрибута товару"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_form_view
+msgid "Sticker note that goes below image"
+msgstr "Примітка етикетки під зображенням"

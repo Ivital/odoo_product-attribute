@@ -90,3 +90,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template_line__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: product_attribute_line_template
+#: model_terms:ir.ui.view,arch_db:product_attribute_line_template.view_product_template_form_inherit_attribute_templates
+msgid "Attribute templates"
+msgstr "Шаблони атрибутів"

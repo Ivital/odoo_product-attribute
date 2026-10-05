@@ -18,3 +18,13 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_category_name_translatable.res_config_settings_view_form
 msgid "Product Category Complete Name Language"
 msgstr "Мова повної назви категорії товару"
+
+#. module: product_category_name_translatable
+#: model_terms:ir.ui.view,arch_db:product_category_name_translatable.res_config_settings_view_form
+msgid "Language to use for displaying the complete name of product categories"
+msgstr "Мова для відображення повної назви категорій товарів"
+
+#. module: product_category_name_translatable
+#: model_terms:ir.ui.view,arch_db:product_category_name_translatable.res_config_settings_view_form
+msgid "Product Category Translations"
+msgstr "Переклади категорій товарів"

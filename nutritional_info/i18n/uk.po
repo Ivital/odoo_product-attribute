@@ -99,3 +99,18 @@ msgstr "Харчова цінність"
 #: model:ir.model.fields,field_description:nutritional_info.field_product_template__nutritional_reference_qty
 msgid "Nutritional reference quantity"
 msgstr "Еталонна кількість харчової цінності"
+
+#. module: nutritional_info
+#: model_terms:ir.ui.view,arch_db:nutritional_info.nutritional_info_table_title
+msgid "<span>Nutrition facts (</span>"
+msgstr "<span>Харчова цінність (</span>"
+
+#. module: nutritional_info
+#: model_terms:ir.ui.view,arch_db:nutritional_info.res_config_settings_view_form
+msgid "Configure your nutritional types"
+msgstr "Налаштуйте типи харчової інформації"
+
+#. module: nutritional_info
+#: model_terms:ir.ui.view,arch_db:nutritional_info.res_config_settings_view_form
+msgid "Nutritional Information"
+msgstr "Харчова інформація"

@@ -190,3 +190,8 @@ msgstr "Варіант клієнта"
 #: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
 msgid "to"
 msgstr "до"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__show_set_supplier_button
+msgid "Show Set Supplier Button"
+msgstr "Показувати кнопку «Встановити постачальника»"

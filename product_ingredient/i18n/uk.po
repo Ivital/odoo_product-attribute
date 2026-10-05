@@ -126,3 +126,8 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__scientific_name
 msgid "Scientific Name"
 msgstr "Наукова назва"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot__ingredient_allergen_trace_ids
+msgid "Ingredient Allergen Trace"
+msgstr "Слід алергену інгредієнта"

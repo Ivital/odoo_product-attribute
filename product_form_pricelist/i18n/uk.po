@@ -23,3 +23,22 @@ msgstr "Фіксована ціна"
 #: model:ir.model.fields,field_description:product_form_pricelist.field_product_template__fixed_pricelist_item_ids
 msgid "Fixed Pricelist Items"
 msgstr "Позиції прайс-листа з фіксованою ціною"
+
+#. module: product_form_pricelist
+#: model_terms:ir.ui.view,arch_db:product_form_pricelist.res_config_settings_view_form
+msgid "Hide 'Sales Price' in product form"
+msgstr "Приховати «Ціну продажу» у формі товару"
+
+#. module: product_form_pricelist
+#: model:ir.model.fields,field_description:product_form_pricelist.field_res_config_settings__group_no_list_price
+msgid "Hide field 'Sales price'"
+msgstr "Приховати поле «Ціна продажу»"
+
+#. module: product_form_pricelist
+#: model_terms:ir.ui.view,arch_db:product_form_pricelist.res_config_settings_view_form
+msgid ""
+"In case that you only manage your price using fixed pricelist, you can hide "
+"the field 'Sales Price'"
+msgstr ""
+"Якщо цінами керуєте лише за допомогою фіксованого прайс-листа, можна "
+"приховати поле «Ціна продажу»"

@@ -100,3 +100,43 @@ msgstr "Загальна ціна"
 #: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__warning_message
 msgid "Warning Message"
 msgstr "Попереджувальне повідомлення"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__current_unit_price
+msgid "Current Unit Price"
+msgstr "Поточна ціна за одиницю"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_packaging__packaging_wizard_price
+msgid "Packaging Wizard Price"
+msgstr "Ціна майстра пакування"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.actions.act_window,name:product_packaging_unit_price_calculator.action_unit_price_wizard
+msgid "Product Package Price"
+msgstr "Ціна пакунка товару"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__packaging_ids
+msgid "Product Packages"
+msgstr "Пакунки товару"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
+msgid "Product Packaging Price"
+msgstr "Ціна пакування товару"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__product_pricelist_item_id
+msgid "Product Pricelist Item"
+msgstr "Елемент прайс-листа товару"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
+msgid "Reset unit price"
+msgstr "Скинути ціну за одиницю"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__selected_packaging_id
+msgid "Selected Packaging"
+msgstr "Вибране пакування"

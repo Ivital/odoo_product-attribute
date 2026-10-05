@@ -83,3 +83,8 @@ msgstr "Одиниці вимірювання ваги"
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__weight_uom_name
 msgid "Weight unit of measure label"
 msgstr "Мітка одиниці вимірювання ваги"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__volume_uom_id
+msgid "Packaging volume unit of measure"
+msgstr "Одиниця вимірювання об'єму пакування"

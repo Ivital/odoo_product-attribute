@@ -157,3 +157,33 @@ msgstr "Номер аркуша"
 #: model:ir.model.fields.selection,name:product_supplierinfo_import.selection__product_supplierinfo__import_status__unchanged
 msgid "Unchanged"
 msgstr "Без змін"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__import_criteria_field_id
+msgid "Import Criteria Field"
+msgstr "Поле критерію імпорту"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__only_update_existing
+msgid "Only Update Existing"
+msgstr "Лише оновлювати існуючі"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__search_header_name
+msgid "Search Header Name"
+msgstr "Назва заголовка пошуку"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__show_not_updated_rates
+msgid "Show Not Updated Rates"
+msgstr "Показувати неоновлені курси"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__supplierinfo_file
+msgid "Supplierinfo File"
+msgstr "Файл даних постачальника"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__supplierinfo_filename
+msgid "Supplierinfo Filename"
+msgstr "Ім’я файлу даних постачальника"

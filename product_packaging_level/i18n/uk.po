@@ -104,3 +104,32 @@ msgstr "Рівень пакування"
 #: model:ir.model.fields.selection,name:product_packaging_level.selection__product_packaging_level__name_policy__user_defined
 msgid "User Defined"
 msgstr "Визначено користувачем"
+
+#. module: product_packaging_level
+#: model:ir.model.fields,field_description:product_packaging_level.field_product_packaging__barcode_required_for_gtin
+msgid "Barcode Required For Gtin"
+msgstr "Штрихкод обов’язковий для GTIN"
+
+#. module: product_packaging_level
+#: model_terms:ir.ui.view,arch_db:product_packaging_level.view_product_packaging_level_form
+msgid ""
+"Language option for packaging names used in case policy names is packaging "
+"by levels"
+msgstr ""
+"Параметр мови для назв пакувань, що використовується, коли політика назв — "
+"пакування за рівнями"
+
+#. module: product_packaging_level
+#: model:ir.model.fields.selection,name:product_packaging_level.selection__product_packaging_level__name_policy__by_package_level
+msgid "Package Level Name"
+msgstr "Назва рівня пакунка"
+
+#. module: product_packaging_level
+#: model:ir.model.fields.selection,name:product_packaging_level.selection__product_packaging_level__name_policy__by_package_type
+msgid "Package Type Name"
+msgstr "Назва типу пакунка"
+
+#. module: product_packaging_level
+#: model:ir.model.fields,field_description:product_packaging_level.field_product_packaging__qty_per_level
+msgid "Qty per package level"
+msgstr "Кількість на рівень пакунка"

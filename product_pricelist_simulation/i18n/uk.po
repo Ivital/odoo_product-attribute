@@ -100,3 +100,13 @@ msgstr "Переглянути ціну за прайс-листом"
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist__variant_count
 msgid "Variants Count"
 msgstr "Кількість варіантів"
+
+#. module: product_pricelist_simulation
+#: model:ir.model.fields,field_description:product_pricelist_simulation.field_product_pricelist__show_in_simulation
+msgid "Show In Simulation"
+msgstr "Показувати в моделюванні"
+
+#. module: product_pricelist_simulation
+#: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist__line_ids
+msgid "Simulation Lines"
+msgstr "Рядки моделювання"

@@ -77,3 +77,29 @@ msgstr "Перевірене повідомлення"
 #: model:ir.model.fields,field_description:product_tier_validation.field_product_template__validation_status
 msgid "Validation Status"
 msgstr "Статус перевірки"
+
+#. module: product_tier_validation
+#: model:ir.actions.server,name:product_tier_validation.action_accept_product_validations
+msgid "Accept Validations"
+msgstr "Прийняти перевірки"
+
+#. module: product_tier_validation
+#: model:ir.model.fields,help:product_tier_validation.field_product_template__has_comment
+msgid "If set, Allow the reviewer to leave a comment on the review."
+msgstr ""
+"Якщо встановлено, дозволити рецензенту залишати коментар до перевірки."
+
+#. module: product_tier_validation
+#: model_terms:ir.ui.view,arch_db:product_tier_validation.product_form_tier_filter
+msgid "Needs an Approval"
+msgstr "Потребує затвердження"
+
+#. module: product_tier_validation
+#: model_terms:ir.ui.view,arch_db:product_tier_validation.product_form_tier_filter
+msgid "Product(s) to Approve"
+msgstr "Товари для затвердження"
+
+#. module: product_tier_validation
+#: model:ir.actions.server,name:product_tier_validation.action_reject_product_validations
+msgid "Reject Validations"
+msgstr "Відхилити перевірки"

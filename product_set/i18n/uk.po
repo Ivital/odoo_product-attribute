@@ -138,7 +138,7 @@ msgstr "Пакування товару"
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__product_packaging_qty
 msgid "Product Packaging Qty"
-msgstr ""
+msgstr "Кількість пакування товару"
 
 #. module: product_set
 #: model:ir.actions.act_window,name:product_set.act_open_product_set_view

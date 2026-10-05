@@ -29,3 +29,28 @@ msgstr "Ігнорувати альтернативи"
 #: model:ir.model.fields.selection,name:product_pricelist_alternative.selection__product_pricelist_item__alternative_pricelist_policy__use_lower_price
 msgid "Use lower price"
 msgstr "Використовувати нижчу ціну"
+
+#. module: product_pricelist_alternative
+#: model_terms:ir.ui.view,arch_db:product_pricelist_alternative.product_pricelist_view
+msgid "Alternative Pricelists"
+msgstr "Альтернативні прайс-листи"
+
+#. module: product_pricelist_alternative
+#: model:ir.model.fields,field_description:product_pricelist_alternative.field_product_pricelist__alternative_pricelist_ids
+msgid "Alternative pricelists"
+msgstr "Альтернативні прайс-листи"
+
+#. module: product_pricelist_alternative
+#: model_terms:ir.ui.view,arch_db:product_pricelist_alternative.product_pricelist_view
+msgid "Alternative to Pricelist"
+msgstr "Альтернатива прайс-листу"
+
+#. module: product_pricelist_alternative
+#: model:ir.model.fields,field_description:product_pricelist_alternative.field_product_pricelist__is_alternative_to_pricelist_count
+msgid "Is Alternative To Pricelist Count"
+msgstr "Кількість альтернатив прайс-листа"
+
+#. module: product_pricelist_alternative
+#: model:ir.model.fields,field_description:product_pricelist_alternative.field_product_pricelist__is_alternative_to_pricelist_ids
+msgid "Is alternative to pricelists"
+msgstr "Є альтернативою прайс-листам"

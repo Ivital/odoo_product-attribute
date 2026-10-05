@@ -22,3 +22,8 @@ msgstr "Додати рядок"
 #: model_terms:ir.ui.view,arch_db:product_catalog_stock.view_picking_form
 msgid "Catalog"
 msgstr "Каталог"
+
+#. module: product_catalog_stock
+#: model_terms:ir.ui.view,arch_db:product_catalog_stock.stock_picking_type_kanban
+msgid "Planned transfer from catalog"
+msgstr "Заплановане переміщення з каталогу"
