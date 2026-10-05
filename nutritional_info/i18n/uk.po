@@ -124,3 +124,9 @@ msgstr "Харчові значення для заданого товару"
 #: model:ir.model,name:nutritional_info.model_nutritional_type
 msgid "Types used to inform about nutritional values at products."
 msgstr "Типи для інформування про харчову цінність товарів."
+
+#. module: nutritional_info
+#. odoo-python
+#: code:addons/nutritional_info/models/product_template.py:0
+msgid "Repeating types of nutritional values is not allowed."
+msgstr "Повторення типів харчової цінності не дозволено."

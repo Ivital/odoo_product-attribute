@@ -39,3 +39,15 @@ msgstr "Міксин контролю доступу до собівартост
 #: model:ir.module.category,name:product_cost_security.module_category
 msgid "Product costs"
 msgstr "Собівартість товарів"
+
+#. module: product_cost_security
+#. odoo-python
+#: code:addons/product_cost_security/models/product_cost_security_mixin.py:0
+msgid ""
+"You do not have enough rights to access the fields \"%(fields)s\" on %(document_kind)s (%(document_model)s). Please contact your system administrator.\n"
+"\n"
+"(Operation: %(operation)s)"
+msgstr ""
+"У вас недостатньо прав для доступу до полів «%(fields)s» у %(document_kind)s (%(document_model)s). Зверніться до системного адміністратора.\n"
+"\n"
+"(Операція: %(operation)s)"

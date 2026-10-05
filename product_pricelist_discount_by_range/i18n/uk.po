@@ -100,3 +100,19 @@ msgstr "Мінімальне значення має бути меншим за 
 #: model:ir.model,name:product_pricelist_discount_by_range.model_product_pricelist_item_discount_range
 msgid "Product Pricelist Item Discount Range"
 msgstr "Діапазон знижки елемента прайс-листа товару"
+
+#. module: product_pricelist_discount_by_range
+#. odoo-python
+#: code:addons/product_pricelist_discount_by_range/models/product_pricelist_item.py:0
+msgid "Discount range not found for the given price."
+msgstr "Для заданої ціни не знайдено діапазону знижки."
+
+#. module: product_pricelist_discount_by_range
+#. odoo-python
+#: code:addons/product_pricelist_discount_by_range/models/product_pricelist_item_discount_range.py:0
+msgid ""
+"The discount range %(min)s - %(max)s overlaps with an existing one "
+"%(overlap_min)s - %(overlap_max)s."
+msgstr ""
+"Діапазон знижки %(min)s - %(max)s перекривається з наявним %(overlap_min)s -"
+" %(overlap_max)s."

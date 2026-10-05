@@ -143,3 +143,15 @@ msgstr "Мітка класу енергоефективності, отрима
 #: model:ir.model.fields,help:product_eprel.field_product_template__eprel_registration_number
 msgid "The EPREL registration number fetched from the API."
 msgstr "Реєстраційний номер EPREL, отриманий через API."
+
+#. module: product_eprel
+#. odoo-python
+#: code:addons/product_eprel/models/product_template.py:0
+msgid "EPREL API Key is not configured."
+msgstr "Ключ API EPREL не налаштовано."
+
+#. module: product_eprel
+#. odoo-python
+#: code:addons/product_eprel/models/product_template.py:0
+msgid "Model Identifier and EPREL Category must be set."
+msgstr "Потрібно вказати ідентифікатор моделі та категорію EPREL."

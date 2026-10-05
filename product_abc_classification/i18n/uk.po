@@ -381,3 +381,82 @@ msgstr "Дозволено лише один рівень на профіль і
 #: model:ir.model.constraint,message:product_abc_classification.constraint_abc_classification_profile_name_uniq
 msgid "Profile name must be unique"
 msgstr "Назва профілю має бути унікальною"
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_product_level.py:0
+msgid "Classification level is mandatory"
+msgstr "Рівень класифікації обов’язковий"
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_product_level.py:0
+msgid ""
+"Computed level must be in  the same classifiation profile as the one on the "
+"product level"
+msgstr ""
+"Обчислюваний рівень має бути в тому самому профілі класифікації, що й рівень"
+" товару"
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_product_level.py:0
+msgid ""
+"Manual level must be in  the same classifiation profile as the one on the "
+"product level"
+msgstr ""
+"Ручний рівень має бути в тому самому профілі класифікації, що й рівень "
+"товару"
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_profile.py:0
+msgid ""
+"The ABC Classification Profile %(profile)s is assigned to company "
+"%(company)s, but the following products belong to another company: "
+"%(products)s."
+msgstr ""
+"Профіль ABC-класифікації %(profile)s призначено компанії %(company)s, але "
+"такі товари належать іншій компанії: %(products)s."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_level.py:0
+msgid "The percentage cannot be greater than 100."
+msgstr "Відсоток не може бути більшим за 100."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_level.py:0
+msgid "The percentage of products cannot be greater than 100."
+msgstr "Відсоток товарів не може бути більшим за 100."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_level.py:0
+msgid "The percentage of products should be a positive number."
+msgstr "Відсоток товарів має бути додатним числом."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_level.py:0
+msgid "The percentage should be a positive number."
+msgstr "Відсоток має бути додатним числом."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_profile.py:0
+msgid "The percentages of the levels must be unique."
+msgstr "Відсотки рівнів мають бути унікальними."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_profile.py:0
+msgid "The sum of the percentages of the levels should be 100."
+msgstr "Сума відсотків рівнів має дорівнювати 100."
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_profile.py:0
+msgid "The sum of the products percentages of the levels should be 100."
+msgstr "Сума відсотків товарів за рівнями має дорівнювати 100."

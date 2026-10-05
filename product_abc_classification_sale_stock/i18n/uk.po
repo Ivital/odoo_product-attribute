@@ -203,3 +203,15 @@ msgstr "Рейтинг за кількістю рядків замовлень"
 #: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__sum_cumulated_percentages
 msgid "Sum cumulated % so lines and cumulated % products"
 msgstr "Накопичена сума % рядків і накопичений % товарів"
+
+#. module: product_abc_classification_sale_stock
+#. odoo-python
+#: code:addons/product_abc_classification_sale_stock/models/abc_classification_profile.py:0
+msgid "Cumulative percentage greater than 100."
+msgstr "Накопичений відсоток перевищує 100."
+
+#. module: product_abc_classification_sale_stock
+#. odoo-python
+#: code:addons/product_abc_classification_sale_stock/models/abc_classification_profile.py:0
+msgid "You must specify a warehouse for {profile_name}"
+msgstr "Потрібно вказати склад для {profile_name}"

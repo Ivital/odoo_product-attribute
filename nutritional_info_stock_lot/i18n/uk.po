@@ -87,3 +87,9 @@ msgstr "Харчова цінність"
 #: model:ir.model,name:nutritional_info_stock_lot.model_nutritional_value_lot
 msgid "Nutritional values for a given lot"
 msgstr "Харчові значення для заданої партії"
+
+#. module: nutritional_info_stock_lot
+#. odoo-python
+#: code:addons/nutritional_info_stock_lot/models/stock_lot.py:0
+msgid "Repeating types of nutritional values is not allowed."
+msgstr "Повторення типів харчової цінності не дозволено."

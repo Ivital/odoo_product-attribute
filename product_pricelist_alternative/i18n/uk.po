@@ -54,3 +54,31 @@ msgstr "Кількість альтернатив прайс-листа"
 #: model:ir.model.fields,field_description:product_pricelist_alternative.field_product_pricelist__is_alternative_to_pricelist_ids
 msgid "Is alternative to pricelists"
 msgstr "Є альтернативою прайс-листам"
+
+#. module: product_pricelist_alternative
+#. odoo-python
+#: code:addons/product_pricelist_alternative/models/product_pricelist.py:0
+msgid ""
+"Formulas based on another pricelist are not allowed on alternative "
+"pricelists."
+msgstr ""
+"Формули на основі іншого прайс-листа не дозволені в альтернативних прайс-"
+"листах."
+
+#. module: product_pricelist_alternative
+#. odoo-python
+#: code:addons/product_pricelist_alternative/models/product_pricelist.py:0
+msgid "Is Alternative to Pricelist"
+msgstr "Альтернатива прайс-листу"
+
+#. module: product_pricelist_alternative
+#. odoo-python
+#: code:addons/product_pricelist_alternative/models/product_pricelist_item.py:0
+msgid ""
+"It is not possible to encode this price rule. Formulas based on another "
+"pricelist are not allowed on alternative pricelists. Please change to "
+"another type of price computation."
+msgstr ""
+"Неможливо закодувати це правило ціноутворення. Формули на основі іншого "
+"прайс-листа не дозволені для альтернативних прайс-листів. Виберіть інший тип"
+" розрахунку ціни."

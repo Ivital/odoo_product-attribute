@@ -257,3 +257,15 @@ msgstr "Цей товар було створено за допомогою ма
 #: model:ir.model,name:product_supplierinfo_import.model_product_supplierinfo_import_template_line
 msgid "Vendor import columns and fields"
 msgstr "Стовпці й поля імпорту постачальника"
+
+#. module: product_supplierinfo_import
+#. odoo-python
+#: code:addons/product_supplierinfo_import/wizards/product_supplierinfo_import.py:0
+msgid "Only .xlsx files are supported."
+msgstr "Підтримуються лише файли .xlsx."
+
+#. module: product_supplierinfo_import
+#. odoo-python
+#: code:addons/product_supplierinfo_import/models/product_supplierinfo_import_template.py:0
+msgid "The Sheet Number cannot be less than 1."
+msgstr "Номер аркуша не може бути меншим за 1."

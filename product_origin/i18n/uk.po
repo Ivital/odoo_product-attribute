@@ -48,3 +48,11 @@ msgid ""
 msgstr ""
 "Технічне поле, що використовується для динамічного обчислення домену стану "
 "залежно від країни."
+
+#. module: product_origin
+#. odoo-python
+#: code:addons/product_origin/models/product_product.py:0
+#: code:addons/product_origin/models/product_template.py:0
+msgid ""
+"The state '%(state_name)s' doesn't belong to the country '%(country_name)s'"
+msgstr "Область '%(state_name)s' не належить країні '%(country_name)s'"

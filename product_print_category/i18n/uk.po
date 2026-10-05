@@ -257,3 +257,15 @@ msgstr "Майстер друку товарів"
 #: model:ir.model,name:product_print_category.model_product_print_wizard_line
 msgid "Wizard line for printing products"
 msgstr "Рядок майстра друку товарів"
+
+#. module: product_print_category
+#. odoo-python
+#: code:addons/product_print_category/wizard/product_print_wizard.py:0
+msgid ""
+"Please set a print category for the following lines \n"
+"\n"
+"- %s"
+msgstr ""
+"Вкажіть категорію друку для таких рядків\n"
+"\n"
+"- %s"

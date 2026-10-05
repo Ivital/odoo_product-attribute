@@ -74,3 +74,27 @@ msgstr "Зіставляти ціни лише з вибраного поста�
 #: model:res.groups,name:product_pricelist_supplierinfo.group_supplierinfo_pricelist_sale_margin
 msgid "Show sale margin on Product Supplierinfo"
 msgstr "Показувати маржу продажу в інформації постачальника товару"
+
+#. module: product_pricelist_supplierinfo
+#. odoo-python
+#: code:addons/product_pricelist_supplierinfo/models/product_pricelist_item.py:0
+msgid "%(percentage)s %% %(discount_type)s on %(base)s %(extra)s"
+msgstr "%(percentage)s %% %(discount_type)s на %(base)s %(extra)s"
+
+#. module: product_pricelist_supplierinfo
+#. odoo-python
+#: code:addons/product_pricelist_supplierinfo/models/product_pricelist_item.py:0
+msgid "+ %(amount)s extra fee"
+msgstr "+ %(amount)s додаткового збору"
+
+#. module: product_pricelist_supplierinfo
+#. odoo-python
+#: code:addons/product_pricelist_supplierinfo/models/product_pricelist_item.py:0
+msgid "- %(amount)s rebate"
+msgstr "- %(amount)s знижки"
+
+#. module: product_pricelist_supplierinfo
+#. odoo-python
+#: code:addons/product_pricelist_supplierinfo/models/product_pricelist_item.py:0
+msgid "supplier's price"
+msgstr "ціна постачальника"

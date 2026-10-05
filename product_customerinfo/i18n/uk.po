@@ -257,3 +257,9 @@ msgid ""
 msgstr ""
 "Назва товару постачальника використовуватиметься під час друку запиту "
 "комерційної пропозиції. Залиште порожнім для внутрішньої назви."
+
+#. module: product_customerinfo
+#. odoo-python
+#: code:addons/product_customerinfo/models/product_customerinfo.py:0
+msgid "Import Template for Customer Pricelists"
+msgstr "Шаблон імпорту для прайс-листів клієнтів"

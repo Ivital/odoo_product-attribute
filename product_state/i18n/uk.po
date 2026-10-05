@@ -157,3 +157,15 @@ msgstr "Виберіть стан для цього товару"
 #: model:ir.model.fields,help:product_state.field_product_state__sequence
 msgid "Used to order the States"
 msgstr "Використовується для впорядкування станів"
+
+#. module: product_state
+#. odoo-python
+#: code:addons/product_state/models/product_template.py:0
+msgid "The product state code %(product_state)s could not be found."
+msgstr "Код стану товару %(product_state)s не знайдено."
+
+#. module: product_state
+#. odoo-python
+#: code:addons/product_state/models/product_state.py:0
+msgid "There should be only one default state"
+msgstr "Має бути лише один стан за замовчуванням"

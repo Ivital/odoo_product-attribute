@@ -66,3 +66,45 @@ msgstr "Абстрактна модель для експорту прайс-л�
 #: model:ir.model,name:product_pricelist_direct_print_xlsx.model_product_pricelist_print
 msgid "Product Pricelist Print"
 msgstr "Друк прайс-листа товару"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Cost Price"
+msgstr "Собівартість"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Currency:"
+msgstr "Валюта:"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Internal Category"
+msgstr "Внутрішня категорія"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "List Price"
+msgstr "Ціна продажу"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Price List Name:"
+msgstr "Назва прайс-листа:"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Special Pricelist"
+msgstr "Спеціальний прайс-лист"
+
+#. module: product_pricelist_direct_print_xlsx
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_xlsx/report/product_pricelist_xlsx.py:0
+msgid "Summary:"
+msgstr "Підсумок:"

@@ -62,3 +62,9 @@ msgid ""
 msgstr ""
 "Якщо встановлено (відмінне від 0.0), перерахунок валюти ігноруватиме "
 "фактичний валютний курс і завжди використовуватиме фіксований курс."
+
+#. module: product_pricelist_fixed_currency_rate
+#. odoo-python
+#: code:addons/product_pricelist_fixed_currency_rate/models/product_pricelist_item.py:0
+msgid "({curr_from} to {curr_to} rates)"
+msgstr "(курси {curr_from} до {curr_to})"

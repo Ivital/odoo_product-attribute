@@ -27,3 +27,9 @@ msgstr "Каталог"
 #: model_terms:ir.ui.view,arch_db:product_catalog_stock.stock_picking_type_kanban
 msgid "Planned transfer from catalog"
 msgstr "Заплановане переміщення з каталогу"
+
+#. module: product_catalog_stock
+#. odoo-javascript
+#: code:addons/product_catalog_stock/static/src/components/product_catalog/kanban_controller.esm.js:0
+msgid "Back to picking"
+msgstr "Назад до комплектування"

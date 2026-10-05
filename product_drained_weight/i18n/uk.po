@@ -24,3 +24,9 @@ msgstr "Вага після зливу"
 #: model:ir.model.fields,help:product_drained_weight.field_product_template__drained_weight
 msgid "Drained Weight of the product, fluid excluded."
 msgstr "Маса нетто товару без рідини."
+
+#. module: product_drained_weight
+#. odoo-python
+#: code:addons/product_drained_weight/models/product_product.py:0
+msgid "The drained weight of product must be lower than net_weight."
+msgstr "Маса нетто без рідини товару має бути меншою за net_weight."

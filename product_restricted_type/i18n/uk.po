@@ -18,3 +18,24 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_restricted_type.field_product_template__allowed_categ_ids
 msgid "Allowed Categories"
 msgstr "Дозволені категорії"
+
+#. module: product_restricted_type
+#. odoo-python
+#: code:addons/product_restricted_type/models/product_category.py:0
+msgid ""
+"A product (or multiple products) in the category have different type than "
+"the selected restricted product type"
+msgstr ""
+"Товар або кілька товарів у категорії мають тип, відмінний від вибраного "
+"обмеженого типу товару"
+
+#. module: product_restricted_type
+#. odoo-python
+#: code:addons/product_restricted_type/models/product_product.py:0
+#: code:addons/product_restricted_type/models/product_template.py:0
+msgid ""
+"The Product Type (%(product_type)s) must be equal to the Restricted Product "
+"Type defined in the Product Category (%(product_categ_restricted_type)s)."
+msgstr ""
+"Тип товару (%(product_type)s) має збігатися з обмеженим типом товару, "
+"визначеним у категорії товару (%(product_categ_restricted_type)s)."

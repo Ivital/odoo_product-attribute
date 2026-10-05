@@ -36,3 +36,9 @@ msgstr "Вага товару разом із контейнером і паку
 #: model:ir.model.fields,help:product_net_weight.field_product_template__net_weight
 msgid "Weight of the product without container nor packaging."
 msgstr "Вага товару без контейнера та пакування."
+
+#. module: product_net_weight
+#. odoo-python
+#: code:addons/product_net_weight/models/product_product.py:0
+msgid "The net weight of product '%s' must be lower than gross weight."
+msgstr "Маса нетто товару «%s» має бути меншою за масу брутто."

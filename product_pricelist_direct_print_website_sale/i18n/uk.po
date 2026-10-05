@@ -27,3 +27,9 @@ msgstr "Показувати публічні категорії"
 #: model:ir.model.fields,field_description:product_pricelist_direct_print_website_sale.field_product_pricelist_print__public_categ_ids
 msgid "Website Product Category"
 msgstr "Категорія товару вебсайту"
+
+#. module: product_pricelist_direct_print_website_sale
+#. odoo-python
+#: code:addons/product_pricelist_direct_print_website_sale/report/product_pricelist_xlsx.py:0
+msgid "Public Category"
+msgstr "Публічна категорія"

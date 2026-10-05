@@ -546,3 +546,9 @@ msgid ""
 msgstr ""
 "{{ object.pricelist_id.company_id.name or object.write_uid.company_id.name "
 "}} Прайс-лист (Посилання {{ object.pricelist_id.name or 'n/a' }})"
+
+#. module: product_pricelist_direct_print
+#. odoo-python
+#: code:addons/product_pricelist_direct_print/wizards/product_pricelist_print.py:0
+msgid "You must set price list or any customer or any show price option."
+msgstr "Потрібно вказати прайс-лист або клієнта, або опцію показу ціни."

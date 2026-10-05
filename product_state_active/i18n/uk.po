@@ -33,3 +33,12 @@ msgstr "Позначте, якщо потрібно архівувати тов�
 msgid "Check this if you want to un-archive product when reaching this state."
 msgstr ""
 "Позначте, якщо потрібно розархівувати товар при досягненні цього стану."
+
+#. module: product_state_active
+#. odoo-python
+#: code:addons/product_state_active/models/product_state.py:0
+msgid ""
+"You cannot have both 'Deactivate Product' and 'Activate Product' options at "
+"the same time!"
+msgstr ""
+"Не можна одночасно мати опції «Деактивувати товар» і «Активувати товар»!"

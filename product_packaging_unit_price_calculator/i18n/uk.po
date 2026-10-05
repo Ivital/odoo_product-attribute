@@ -150,3 +150,13 @@ msgstr "Ціна, за якою товар продається клієнтам
 #: model:ir.model,name:product_packaging_unit_price_calculator.model_product_package_price_wizard
 msgid "Wizard to compute unit price from packaging price"
 msgstr "Майстер розрахунку ціни за одиницю з ціни пакування"
+
+#. module: product_packaging_unit_price_calculator
+#. odoo-python
+#: code:addons/product_packaging_unit_price_calculator/wizards/product_package_price.py:0
+msgid ""
+"Unit price cannot be computed because the selectedpackaging has no quantity "
+"set."
+msgstr ""
+"Неможливо обчислити ціну за одиницю, оскільки для вибраного пакування не "
+"задано кількість."

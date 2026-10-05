@@ -153,3 +153,45 @@ msgstr ""
 #: model:ir.model.fields,help:product_profile.field_product_profile__type
 msgid "See 'detailed_type' field in product.template"
 msgstr "Див. поле 'detailed_type' у product.template"
+
+#. module: product_profile
+#. odoo-python
+#: code:addons/product_profile/models/product_profile.py:0
+msgid ""
+"If you update this profile, all products using this profile will also be "
+"updated. This might take a while."
+msgstr ""
+"Якщо оновити цей профіль, усі товари, що його використовують, також буде "
+"оновлено. Це може тривати певний час."
+
+#. module: product_profile
+#. odoo-python
+#: code:addons/product_profile/models/product_profile.py:0
+msgid ""
+"Issue\n"
+"------\n"
+"%(error)s\n"
+" %(value)s value can't be applied to %(field)s field.\n"
+"There is no matching value between 'Product Profiles' \n"
+"and %(model)s models for this field.\n"
+"\n"
+"Resolution\n"
+"----------\n"
+"Check your settings on Profile model:\n"
+" Sales > Configuration \n"
+"> Products\n"
+"> Product Profiles"
+msgstr ""
+"Проблема\n"
+"------\n"
+"%(error)s\n"
+" Значення %(value)s не можна застосувати до поля %(field)s.\n"
+"Для цього поля немає відповідного значення між моделями 'Профілі товарів' \n"
+"та %(model)s.\n"
+"\n"
+"Вирішення\n"
+"----------\n"
+"Перевірте налаштування моделі профілю:\n"
+" Продажі > Налаштування \n"
+"> Товари\n"
+"> Профілі товарів"

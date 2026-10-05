@@ -46,3 +46,13 @@ msgstr "Міксин обов’язкового штрихкоду"
 #: model:ir.model.fields,help:product_barcode_required.field_res_config_settings__product_variant_barcode_required
 msgid "Make variant barcode required"
 msgstr "Вимагати штрихкод для варіанта"
+
+#. module: product_barcode_required
+#. odoo-python
+#: code:addons/product_barcode_required/models/product_barcode_mixin.py:0
+msgid ""
+"These products have no barcode:\n"
+"{}"
+msgstr ""
+"Ці товари не мають штрихкоду:\n"
+"{}"

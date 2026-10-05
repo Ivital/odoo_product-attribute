@@ -208,7 +208,7 @@ msgstr "Набір"
 #. odoo-python
 #: code:addons/product_set/tests/models.py:0
 msgid "This set of products is restricted for this user."
-msgstr ""
+msgstr "Цей набір товарів обмежений для цього користувача."
 
 #. module: product_set
 #: model:ir.model,name:product_set.model_product_set_wizard
@@ -229,6 +229,7 @@ msgstr ""
 #: code:addons/product_set/models/product_set_line.py:0
 msgid "You must define a package before setting a quantity of said package."
 msgstr ""
+"Потрібно визначити пакування перед установленням кількості цього пакування."
 
 #. module: product_set
 #: model:product.set,name:product_set.product_set_i5_computer
