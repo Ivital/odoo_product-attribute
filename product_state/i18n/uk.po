@@ -77,3 +77,52 @@ msgstr "Код стану"
 #: model_terms:ir.ui.view,arch_db:product_state.view_product_state_form
 msgid "State Name"
 msgstr "Назва стану"
+
+#. module: product_state
+#: model:ir.model.fields,field_description:product_state.field_product_state__default
+msgid "Default state"
+msgstr "Типовий стан"
+
+#. module: product_state
+#: model:ir.model.fields,field_description:product_state.field_product_state__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_state
+#: model:ir.model.fields,field_description:product_state.field_product_state__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_state
+#: model:product.state,name:product_state.product_state_sellable
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: product_state
+#: model:ir.model.fields,field_description:product_state.field_product_state__products_count
+msgid "Number of products"
+msgstr "Кількість товарів"
+
+#. module: product_state
+#: model:product.state,name:product_state.product_state_obsolete
+msgid "Obsolete"
+msgstr "Застаріле"
+
+#. module: product_state
+#: model:ir.actions.act_window,name:product_state.action_open_single_product_state
+#: model:ir.model,name:product_state.model_product_state
+#: model_terms:ir.ui.view,arch_db:product_state.product_state_search_form_view
+msgid "Product State"
+msgstr "Стан товару"
+
+#. module: product_state
+#: model:ir.model.fields,field_description:product_state.field_product_product__state
+#: model:ir.model.fields,field_description:product_state.field_product_template__state
+msgid "Product Status"
+msgstr "Статус товару"
+
+#. module: product_state
+#: model:ir.actions.act_window,name:product_state.action_open_state_products
+#: model:ir.model.fields,field_description:product_state.field_product_state__product_ids
+msgid "State Products"
+msgstr "Товари стану"

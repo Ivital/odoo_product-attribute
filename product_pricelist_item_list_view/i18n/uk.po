@@ -27,3 +27,18 @@ msgstr "Правила цін"
 #: model_terms:ir.ui.view,arch_db:product_pricelist_item_list_view.product_pricelist_item_view_search
 msgid "Start Date"
 msgstr "Дата початку"
+
+#. module: product_pricelist_item_list_view
+#: model_terms:ir.ui.view,arch_db:product_pricelist_item_list_view.product_pricelist_item_view_search
+msgid "Expired Price"
+msgstr "Прострочена ціна"
+
+#. module: product_pricelist_item_list_view
+#: model_terms:ir.ui.view,arch_db:product_pricelist_item_list_view.product_pricelist_item_view_search
+msgid "Future Price"
+msgstr "Майбутня ціна"
+
+#. module: product_pricelist_item_list_view
+#: model_terms:ir.ui.view,arch_db:product_pricelist_item_list_view.product_pricelist_item_view_search
+msgid "Ongoing Price"
+msgstr "Поточна ціна"

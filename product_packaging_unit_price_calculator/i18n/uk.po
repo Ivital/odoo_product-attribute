@@ -52,3 +52,51 @@ msgstr "Ціна продажу"
 #: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__unit_price
 msgid "Unit Price"
 msgstr "Ціна за одиницю"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__packaging_price
+msgid "Package Price"
+msgstr "Ціна пакунка"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.product_pricelist_item_form_view
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.product_pricelist_item_tree__view_from_product
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.product_supplierinfo_form_view
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.product_template_form_view
+msgid "Packaging Prices"
+msgstr "Ціни пакування"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__product_supplierinfo_id
+msgid "Product Supplierinfo"
+msgstr "Інформація про постачальника товару"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
+msgid "Save"
+msgstr "Зберегти"
+
+#. module: product_packaging_unit_price_calculator
+#: model_terms:ir.ui.view,arch_db:product_packaging_unit_price_calculator.view_product_package_price_form
+msgid "Total Price"
+msgstr "Загальна ціна"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__warning_message
+msgid "Warning Message"
+msgstr "Попереджувальне повідомлення"

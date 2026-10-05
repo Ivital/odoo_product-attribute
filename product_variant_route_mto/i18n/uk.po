@@ -18,3 +18,8 @@ msgstr ""
 #: code:addons/product_variant_route_mto/models/product_template.py:0
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: product_variant_route_mto
+#: model:ir.model.fields,field_description:product_variant_route_mto.field_product_product__is_mto
+msgid "Variant is MTO"
+msgstr "Варіант використовує MTO"

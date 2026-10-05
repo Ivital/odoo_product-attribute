@@ -106,3 +106,49 @@ msgstr "До друку"
 #: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard_line__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: product_print_category
+#: model_terms:ir.ui.view,arch_db:product_print_category.view_product_print_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: product_print_category
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category__write_uid
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category_rule__write_uid
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard__write_uid
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_print_category
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category__write_date
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category_rule__write_date
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard__write_date
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_print_category
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category_rule__main_category_id
+msgid "Main Category"
+msgstr "Основна категорія"
+
+#. module: product_print_category
+#: model:ir.actions.report,name:product_print_category.pricetag
+msgid "Pricetags"
+msgstr "Цінники"
+
+#. module: product_print_category
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_category_rule__print_category_id
+#: model:ir.model.fields,field_description:product_print_category.field_product_print_wizard_line__print_category_id
+#: model:ir.model.fields,field_description:product_print_category.field_product_product__print_category_id
+#: model:ir.model.fields,field_description:product_print_category.field_product_template__print_category_id
+msgid "Print Category"
+msgstr "Категорія друку"
+
+#. module: product_print_category
+#: model:ir.actions.act_window,name:product_print_category.action_product_product_2_product_print_wizard
+#: model:ir.actions.act_window,name:product_print_category.action_product_template_2_product_print_wizard
+#: model_terms:ir.ui.view,arch_db:product_print_category.view_product_print_wizard_form
+msgid "Print Products"
+msgstr "Друкувати товари"

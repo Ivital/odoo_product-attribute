@@ -71,3 +71,53 @@ msgstr "До дати"
 #: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__warehouse_id
 msgid "Warehouse"
 msgstr "Склад"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model,name:product_abc_classification_sale_stock.model_abc_classification_product_level
+msgid "Abc Classification Product Level"
+msgstr "Рівень товару ABC-класифікації"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model,name:product_abc_classification_sale_stock.model_abc_classification_profile
+msgid "Abc Classification Profile"
+msgstr "Профіль ABC-класифікації"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__computed_level_id
+msgid "Computed classification level"
+msgstr "Обчислений рівень класифікації"
+
+#. module: product_abc_classification_sale_stock
+#: model_terms:ir.ui.view,arch_db:product_abc_classification_sale_stock.abc_sale_stock_level_history_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__product_level_id
+msgid "Product Level"
+msgstr "Рівень товару"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__product_tmpl_id
+msgid "Product template"
+msgstr "Шаблон товару"
+
+#. module: product_abc_classification_sale_stock
+#: model_terms:ir.ui.view,arch_db:product_abc_classification_sale_stock.abc_sale_stock_level_history_search_view
+msgid "This Year"
+msgstr "Цього року"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_classification_profile__profile_type
+msgid "Type of ABC classification"
+msgstr "Тип ABC-класифікації"

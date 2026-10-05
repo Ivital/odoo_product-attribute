@@ -58,3 +58,32 @@ msgstr "Ціна"
 #: model:ir.ui.menu,name:product_multi_price.multi_price_name_menu
 msgid "Price Field Names"
 msgstr "Назви полів цін"
+
+#. module: product_multi_price
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price__write_uid
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price_name__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_multi_price
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price__write_date
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price_name__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_multi_price
+#: model:ir.model.fields.selection,name:product_multi_price.selection__product_pricelist_assortment_item__base__multi_price
+#: model:ir.model.fields.selection,name:product_multi_price.selection__product_pricelist_item__base__multi_price
+msgid "Other Price"
+msgstr "Інша ціна"
+
+#. module: product_multi_price
+#: model:ir.model.fields,field_description:product_multi_price.field_product_pricelist_item__multi_price_name
+msgid "Other Price Name"
+msgstr "Назва іншої ціни"
+
+#. module: product_multi_price
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price__name_text
+#: model:ir.model.fields,field_description:product_multi_price.field_product_multi_price_name__name
+msgid "Price Field Name"
+msgstr "Назва поля ціни"

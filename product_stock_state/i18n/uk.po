@@ -17,3 +17,45 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_stock_state.field_product_product__stock_state
 msgid "Stock State"
 msgstr "Стан запасу"
+
+#. module: product_stock_state
+#: model:ir.model.fields.selection,name:product_stock_state.selection__product_product__stock_state__in_limited_stock
+msgid "In Limited Stock"
+msgstr "Обмежений запас"
+
+#. module: product_stock_state
+#: model:ir.model.fields.selection,name:product_stock_state.selection__product_product__stock_state__in_stock
+msgid "In Stock"
+msgstr "На складі"
+
+#. module: product_stock_state
+#: model:ir.model.fields,field_description:product_stock_state.field_product_category__manual_stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_product_product__manual_stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_product_template__manual_stock_state_threshold
+msgid "Manual Stock State Threshold"
+msgstr "Ручний поріг стану запасів"
+
+#. module: product_stock_state
+#: model:ir.model.fields.selection,name:product_stock_state.selection__product_product__stock_state__out_of_stock
+msgid "Out Of Stock"
+msgstr "Немає в наявності"
+
+#. module: product_stock_state
+#: model:ir.model.fields.selection,name:product_stock_state.selection__product_product__stock_state__resupplying
+msgid "Resupplying"
+msgstr "Дозабезпечення"
+
+#. module: product_stock_state
+#: model:ir.model.fields,field_description:product_stock_state.field_product_category__stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_product_product__stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_product_template__stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_res_company__stock_state_threshold
+#: model:ir.model.fields,field_description:product_stock_state.field_res_config_settings__stock_state_threshold
+msgid "Stock State Threshold"
+msgstr "Поріг стану запасів"
+
+#. module: product_stock_state
+#: model_terms:ir.ui.view,arch_db:product_stock_state.view_product_category_form
+#: model_terms:ir.ui.view,arch_db:product_stock_state.view_product_template_form
+msgid "Stock Threshold"
+msgstr "Поріг запасів"

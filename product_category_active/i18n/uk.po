@@ -22,3 +22,8 @@ msgstr "Активний"
 #: model_terms:ir.ui.view,arch_db:product_category_active.product_category_search_view
 msgid "Archived"
 msgstr "Архівовано"
+
+#. module: product_category_active
+#: model_terms:ir.ui.view,arch_db:product_category_active.product_category_search_view
+msgid "Archived or Active"
+msgstr "Архівний або активний"

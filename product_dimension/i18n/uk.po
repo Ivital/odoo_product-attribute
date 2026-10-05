@@ -54,3 +54,9 @@ msgstr "довжина"
 #: model:ir.model.fields,field_description:product_dimension.field_product_template__product_width
 msgid "width"
 msgstr "ширина"
+
+#. module: product_dimension
+#: model:ir.model.fields,field_description:product_dimension.field_product_product__dimensional_uom_id
+#: model:ir.model.fields,field_description:product_dimension.field_product_template__dimensional_uom_id
+msgid "Dimensional UoM"
+msgstr "Розмірна одиниця вимірювання"

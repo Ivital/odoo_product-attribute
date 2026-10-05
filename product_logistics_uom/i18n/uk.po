@@ -29,3 +29,54 @@ msgstr "Об’єм"
 #: model_terms:ir.ui.view,arch_db:product_logistics_uom.product_template_form_view
 msgid "Weight"
 msgstr "Вага"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_res_config_settings__product_default_length_uom_id
+msgid "Default Length Unit of Measure"
+msgstr "Типова одиниця вимірювання довжини"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_res_config_settings__product_default_volume_uom_id
+msgid "Default Volume Unit of Measure"
+msgstr "Типова одиниця вимірювання об'єму"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_res_config_settings__product_default_weight_uom_id
+msgid "Default Weight Unit of Measure"
+msgstr "Типова одиниця вимірювання ваги"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__show_volume_uom_warning
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__show_volume_uom_warning
+msgid "Show Volume Uom Warning"
+msgstr "Показувати попередження про одиницю об'єму"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__show_weight_uom_warning
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__show_weight_uom_warning
+msgid "Show Weight Uom Warning"
+msgstr "Показувати попередження про одиницю ваги"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__volume_uom_id
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__volume_uom_id
+msgid "Volume Unit of Measure"
+msgstr "Одиниця вимірювання об'єму"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__product_volume
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__product_volume
+msgid "Volume in product UOM"
+msgstr "Об'єм в одиниці вимірювання товару"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__weight_uom_id
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__weight_uom_id
+msgid "Weight Unit of Measure"
+msgstr "Одиниця вимірювання ваги"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_product__product_weight
+#: model:ir.model.fields,field_description:product_logistics_uom.field_product_template__product_weight
+msgid "Weight in product UOM"
+msgstr "Вага в одиниці вимірювання товару"

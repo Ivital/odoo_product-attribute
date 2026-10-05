@@ -105,3 +105,155 @@ msgstr "Дата початку"
 #: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__product_id
 msgid "Variant"
 msgstr "Варіант"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__actual_currency_rate
+msgid "Actual Currency Rate"
+msgstr "Фактичний курс валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__alternative_pricelist_policy
+msgid "Alternative Pricelist Policy"
+msgstr "Політика альтернативного прайс-листа"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_form_view
+msgid "Assortment Items"
+msgstr "Елементи асортименту"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__assortment_item_id
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_item__assortment_item_id
+msgid "Assortment item"
+msgstr "Позиція асортименту"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist__item_assortment_ids
+msgid "Assortment items"
+msgstr "Елементи асортименту"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__compute_price
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid "Compute Price"
+msgstr "Обчислити ціну"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__currency_rate_tooltip
+msgid "Currency Rate Tooltip"
+msgstr "Підказка курсу валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__discount_range_ids
+msgid "Discount Range"
+msgstr "Діапазон знижки"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__discount_type
+msgid "Discount Type"
+msgstr "Тип знижки"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__do_inverse_currency_rate
+msgid "Do Inverse Currency Rate"
+msgstr "Використовувати зворотний курс валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__fixed_currency_rate
+msgid "Fixed Currency Rate"
+msgstr "Фіксований курс валюти"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__no_supplierinfo_discount
+msgid "Ignore Supplier Info Discount"
+msgstr "Ігнорувати знижку інформації постачальника"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__no_supplierinfo_min_quantity
+msgid "Ignore Supplier Info Min. Quantity"
+msgstr "Ігнорувати мінімальну кількість інформації постачальника"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__ignore_supplierinfo_margin
+msgid "Ignore Supplierinfo Margin"
+msgstr "Ігнорувати маржу інформації постачальника"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__inverse_actual_currency_rate
+msgid "Inverse Actual Currency Rate"
+msgstr "Зворотний фактичний курс валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__inverse_fixed_currency_rate
+msgid "Inverse Fixed Currency Rate"
+msgstr "Зворотний фіксований курс валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__is_fixed_currency_rate_applicable
+msgid "Is Fixed Currency Rate Applicable"
+msgstr "Застосовується фіксований курс валюти"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid "Max. Margin"
+msgstr "Макс. маржа"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid "Min. Margin"
+msgstr "Мін. маржа"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__min_quantity
+msgid "Min. Quantity"
+msgstr "Мін. кількість"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__multi_price_name
+msgid "Other Price Name"
+msgstr "Назва іншої ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__base_pricelist_id
+msgid "Other Pricelist"
+msgstr "Інший прайслист"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__price_discount
+msgid "Price Discount"
+msgstr "Знижка ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__price_round
+msgid "Price Rounding"
+msgstr "Округлення ціни"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__pricelist_item_ids
+msgid "Pricelist Item"
+msgstr "Позиція прайс-листа"
+
+#. module: product_pricelist_assortment
+#: model_terms:ir.ui.view,arch_db:product_pricelist_assortment.product_pricelist_assortment_item_form_view
+msgid "Rounding Method"
+msgstr "Метод округлення"
+
+#. module: product_pricelist_assortment
+#: model:ir.model.fields,field_description:product_pricelist_assortment.field_product_pricelist_assortment_item__filter_supplier_id
+msgid "Supplier filter"
+msgstr "Фільтр постачальника"

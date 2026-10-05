@@ -48,3 +48,45 @@ msgstr "Відсоток"
 #: model_terms:ir.ui.view,arch_db:product_pricelist_discount_by_range.product_pricelist_supplier_item_form_view
 msgid "Surcharge"
 msgstr "Надбавка"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields.selection,name:product_pricelist_discount_by_range.selection__product_pricelist_assortment_item__discount_type__range
+#: model:ir.model.fields.selection,name:product_pricelist_discount_by_range.selection__product_pricelist_item__discount_type__range
+msgid "By range"
+msgstr "За діапазоном"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields,field_description:product_pricelist_discount_by_range.field_product_pricelist_item__discount_range_ids
+msgid "Discount Range"
+msgstr "Діапазон знижки"
+
+#. module: product_pricelist_discount_by_range
+#: model_terms:ir.ui.view,arch_db:product_pricelist_discount_by_range.product_pricelist_supplier_item_form_view
+msgid "Discount Ranges"
+msgstr "Діапазони знижок"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields,field_description:product_pricelist_discount_by_range.field_product_pricelist_item__discount_type
+msgid "Discount Type"
+msgstr "Тип знижки"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields,field_description:product_pricelist_discount_by_range.field_product_pricelist_item_discount_range__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields,field_description:product_pricelist_discount_by_range.field_product_pricelist_item_discount_range__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields,field_description:product_pricelist_discount_by_range.field_product_pricelist_item_discount_range__pricelist_item_id
+msgid "Pricelist Item"
+msgstr "Позиція прайс-листа"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.fields.selection,name:product_pricelist_discount_by_range.selection__product_pricelist_assortment_item__discount_type__simple
+#: model:ir.model.fields.selection,name:product_pricelist_discount_by_range.selection__product_pricelist_item__discount_type__simple
+msgid "Simple"
+msgstr "Простий"

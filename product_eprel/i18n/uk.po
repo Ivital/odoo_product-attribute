@@ -56,3 +56,58 @@ msgstr "URL картки"
 #: model:ir.model.fields,field_description:product_eprel.field_product_template__label_url
 msgid "Label URL"
 msgstr "URL мітки"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_category__eprel_category_id
+msgid "EPREL Category"
+msgstr "Категорія EPREL"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_product__eprel_enabled
+#: model:ir.model.fields,field_description:product_eprel.field_product_template__eprel_enabled
+msgid "EPREL Enabled"
+msgstr "EPREL увімкнено"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_product__eprel_registration_number
+#: model:ir.model.fields,field_description:product_eprel.field_product_template__eprel_registration_number
+msgid "EPREL Registration Number"
+msgstr "Реєстраційний номер EPREL"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_product__eprel_energy_class_image
+#: model:ir.model.fields,field_description:product_eprel.field_product_template__eprel_energy_class_image
+msgid "Energy Class Image"
+msgstr "Зображення класу енергоефективності"
+
+#. module: product_eprel
+#: model_terms:ir.ui.view,arch_db:product_eprel.view_product_template_form_eprel
+msgid "Get EPREL data"
+msgstr "Отримати дані EPREL"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_product__label_arrow_url
+#: model:ir.model.fields,field_description:product_eprel.field_product_template__label_arrow_url
+msgid "Label Arrow URL"
+msgstr "URL стрілки етикетки"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_category_eprel__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_category_eprel__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_product__eprel_model_identifier
+#: model:ir.model.fields,field_description:product_eprel.field_product_template__eprel_model_identifier
+msgid "Model Identifier"
+msgstr "Ідентифікатор моделі"
+
+#. module: product_eprel
+#: model:ir.model.fields,field_description:product_eprel.field_product_category_eprel__name
+msgid "Product group"
+msgstr "Група товарів"

@@ -115,3 +115,136 @@ msgstr "Профіль"
 #: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__rating_ids
 msgid "Ratings"
 msgstr "Рейтинги"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.view_product_category_form
+msgid "-> Apply to Products"
+msgstr "-> Застосувати до товарів"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.view_product_category_form
+msgid "ABC Classification"
+msgstr "ABC-класифікація"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "ABC Profile"
+msgstr "Профіль ABC"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_product_level
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_product__abc_classification_product_level_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_template__abc_classification_product_level_ids
+msgid "Abc Classification Product Level"
+msgstr "Рівень товару ABC-класифікації"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_profile
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__allowed_profile_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_category__abc_classification_profile_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_product__abc_classification_profile_ids
+#: model:ir.model.fields,field_description:product_abc_classification.field_product_template__abc_classification_profile_ids
+msgid "Abc Classification Profile"
+msgstr "Профіль ABC-класифікації"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Computation"
+msgstr "Обчислення"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__computed_level_id
+msgid "Computed classification level"
+msgstr "Обчислений рівень класифікації"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_product_level_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__write_uid
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__write_uid
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_level__write_date
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__write_date
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Levels"
+msgstr "Рівні"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__product_count
+msgid "Product Count"
+msgstr "Кількість товарів"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_product_product
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__product_variant_ids
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__product_tmpl_id
+msgid "Product template"
+msgstr "Шаблон товару"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
+msgid "Profile Information"
+msgstr "Інформація профілю"
+
+#. module: product_abc_classification
+#: model_terms:ir.ui.view,arch_db:product_abc_classification.view_product_category_form
+msgid "This will apply to all products in the category"
+msgstr "Це буде застосовано до всіх товарів у категорії"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__profile_type
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_profile__profile_type
+msgid "Type of ABC classification"
+msgstr "Тип ABC-класифікації"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,field_description:product_abc_classification.field_abc_classification_product_level__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"

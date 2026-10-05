@@ -33,3 +33,49 @@ msgstr "Нове «до»"
 #: model:ir.model.fields,field_description:product_status.field_product_product__product_state_id
 msgid "State"
 msgstr "Стан"
+
+#. module: product_status
+#: model_terms:ir.ui.view,arch_db:product_status.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_status.product_template_only_form_view
+msgid ""
+"<strong>End-of-life</strong> has priority over the other dates.<br/>\n"
+"            <strong>Discontinued-until</strong> has priority over <strong>New until</strong>."
+msgstr ""
+"<strong>Кінець життєвого циклу</strong> має пріоритет над іншими датами.<br/>\n"
+"            <strong>Припинено до</strong> має пріоритет над <strong>Новий до</strong>."
+
+#. module: product_status
+#: model_terms:ir.ui.view,arch_db:product_status.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_status.product_template_only_form_view
+msgid "By order of importance, the status is computed by:<br/>"
+msgstr "За порядком важливості статус обчислюється так:<br/>"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__discontinued_until
+#: model:ir.model.fields,field_description:product_status.field_product_template__discontinued_until
+#: model_terms:ir.ui.view,arch_db:product_status.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_status.product_template_only_form_view
+msgid "Discontinued until"
+msgstr "Припинено до"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__has_status_date
+msgid "Has Status Date"
+msgstr "Має дату статусу"
+
+#. module: product_status
+#: model:product.state,name:product_status.product_state_new
+msgid "New"
+msgstr "Новий"
+
+#. module: product_status
+#: model:ir.model,name:product_status.model_product_state
+msgid "Product State"
+msgstr "Стан товару"
+
+#. module: product_status
+#: model:ir.model.fields,field_description:product_status.field_product_product__state
+#: model_terms:ir.ui.view,arch_db:product_status.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_status.product_template_only_form_view
+msgid "Product Status"
+msgstr "Статус товару"

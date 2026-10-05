@@ -120,3 +120,62 @@ msgstr "Мале зображення"
 #: model_terms:ir.ui.view,arch_db:product_sticker.product_variant_easy_edit_view
 msgid "Stickers"
 msgstr "Наліпки"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__product_attribute_value_id
+msgid "Attribute value"
+msgstr "Значення атрибута"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__available_model_ids
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Available Models"
+msgstr "Доступні моделі"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Cross Attribute"
+msgstr "Перехресний атрибут"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Cross Category"
+msgstr "Перехресна категорія"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Cross Company"
+msgstr "Між компаніями"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_sticker
+#: model:ir.model,name:product_sticker.model_product_attribute
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Product Attribute"
+msgstr "Атрибут товару"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Product Category"
+msgstr "Категорія товару"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_attribute__sticker_count
+#: model:ir.model.fields,field_description:product_sticker.field_product_attribute_value__sticker_count
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker_mixin__sticker_count
+msgid "Sticker Count"
+msgstr "Кількість наліпок"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__show_sticker_note
+msgid "Sticker Note"
+msgstr "Наліпка-примітка"

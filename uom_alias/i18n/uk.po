@@ -42,3 +42,13 @@ msgstr "Од. вим."
 #: model:ir.model.fields,field_description:uom_alias.field_uom_uom__alias_ids
 msgid "Uom Alias"
 msgstr "Псевдонім од. вим."
+
+#. module: uom_alias
+#: model:ir.model.fields,field_description:uom_alias.field_uom_alias__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: uom_alias
+#: model:ir.model.fields,field_description:uom_alias.field_uom_alias__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

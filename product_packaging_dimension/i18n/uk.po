@@ -48,3 +48,38 @@ msgstr "Вага"
 #: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__width
 msgid "Width"
 msgstr "Ширина"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__length_uom_id
+msgid "Dimensions Units of Measure"
+msgstr "Розмірні одиниці вимірювання"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__length_uom_name
+msgid "Length unit of measure label"
+msgstr "Мітка одиниці вимірювання довжини"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__volume_uom_name
+msgid "Volume Unit of Measure label"
+msgstr "Мітка одиниці вимірювання об'єму"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__volume_uom_id
+msgid "Volume Units of Measure"
+msgstr "Одиниці вимірювання об'єму"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__weight_uom_id
+msgid "Weight Unit of Measure"
+msgstr "Одиниця вимірювання ваги"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__weight_uom_id
+msgid "Weight Units of Measure"
+msgstr "Одиниці вимірювання ваги"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,field_description:product_packaging_dimension.field_product_packaging__weight_uom_name
+msgid "Weight unit of measure label"
+msgstr "Мітка одиниці вимірювання ваги"

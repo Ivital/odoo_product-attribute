@@ -75,3 +75,33 @@ msgstr "Прайс-лист"
 #: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
 msgid "User"
 msgstr "Користувач"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_list
+msgid "Price History"
+msgstr "Історія цін"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_list
+msgid "Print Labels"
+msgstr "Друкувати етикетки"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "Search History"
+msgstr "Історія пошуку"

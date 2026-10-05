@@ -1,0 +1,54 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__actual_currency_rate
+msgid "Actual Currency Rate"
+msgstr "Фактичний курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__currency_rate_tooltip
+msgid "Currency Rate Tooltip"
+msgstr "Підказка курсу валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__do_inverse_currency_rate
+msgid "Do Inverse Currency Rate"
+msgstr "Використовувати зворотний курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__fixed_currency_rate
+msgid "Fixed Currency Rate"
+msgstr "Фіксований курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model_terms:ir.ui.view,arch_db:product_pricelist_fixed_currency_rate.product_pricelist_item_form_view
+msgid "Inverse"
+msgstr "Зворотний"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__inverse_actual_currency_rate
+msgid "Inverse Actual Currency Rate"
+msgstr "Зворотний фактичний курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__inverse_fixed_currency_rate
+msgid "Inverse Fixed Currency Rate"
+msgstr "Зворотний фіксований курс валюти"
+
+#. module: product_pricelist_fixed_currency_rate
+#: model:ir.model.fields,field_description:product_pricelist_fixed_currency_rate.field_product_pricelist_item__is_fixed_currency_rate_applicable
+msgid "Is Fixed Currency Rate Applicable"
+msgstr "Застосовується фіксований курс валюти"

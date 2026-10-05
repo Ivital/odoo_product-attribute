@@ -89,3 +89,71 @@ msgstr "Строк дії"
 #: model:ir.ui.menu,name:product_supplierinfo_import.product_supplierinfo_import_template_menu
 msgid "Vendor pricelists import templates"
 msgstr "Шаблони імпорту прайс-листів постачальників"
+
+#. module: product_supplierinfo_import
+#: model_terms:ir.ui.view,arch_db:product_supplierinfo_import.product_supplierinfo_import_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__create_new_products
+msgid "Create New Products"
+msgstr "Створити нові товари"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_product__created_from_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_template__created_from_supplierinfo_import
+msgid "Created From Supplierinfo Import"
+msgstr "Створено з імпорту інформації постачальника"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__header_offset
+msgid "Header Offset"
+msgstr "Зміщення заголовка"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__template_line_ids
+msgid "Headers mapping"
+msgstr "Зіставлення заголовків"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_customerinfo__import_status
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo__import_status
+msgid "Import Status"
+msgstr "Статус імпорту"
+
+#. module: product_supplierinfo_import
+#: model_terms:ir.ui.view,arch_db:product_supplierinfo_import.product_supplierinfo_import_form
+msgid "Import and View"
+msgstr "Імпортувати й переглянути"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__write_uid
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__write_uid
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__write_date
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__write_date
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields.selection,name:product_supplierinfo_import.selection__product_customerinfo__import_status__new_or_updated
+#: model:ir.model.fields.selection,name:product_supplierinfo_import.selection__product_supplierinfo__import_status__new_or_updated
+msgid "New or Updated"
+msgstr "Новий або оновлений"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import_template__sheet_number
+msgid "Sheet Number"
+msgstr "Номер аркуша"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields.selection,name:product_supplierinfo_import.selection__product_customerinfo__import_status__unchanged
+#: model:ir.model.fields.selection,name:product_supplierinfo_import.selection__product_supplierinfo__import_status__unchanged
+msgid "Unchanged"
+msgstr "Без змін"

@@ -51,3 +51,13 @@ msgstr "Назва"
 #: model_terms:ir.ui.view,arch_db:product_category_tag.view_product_category_tag_form
 msgid "Tags"
 msgstr "Теги"
+
+#. module: product_category_tag
+#: model:ir.model.fields,field_description:product_category_tag.field_product_category_tag__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_category_tag
+#: model:ir.model.fields,field_description:product_category_tag.field_product_category_tag__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

@@ -68,3 +68,24 @@ msgstr "Послуга"
 #: model:ir.model.fields,field_description:product_profile.field_product_profile__type
 msgid "Type"
 msgstr "Тип"
+
+#. module: product_profile
+#: model:ir.model.fields.selection,name:product_profile.selection__product_profile__type__consu
+msgid "Consumable"
+msgstr "Витратний матеріал"
+
+#. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_res_config_settings__group_product_profile
+#: model:res.groups,name:product_profile.group_product_profile_user
+msgid "Display Product Profile fields"
+msgstr "Показувати поля профілю товару"
+
+#. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_profile
+#: model:ir.model.fields,field_description:product_profile.field_product_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

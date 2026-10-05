@@ -57,3 +57,28 @@ msgstr "Типи"
 #: model:ir.model.fields,field_description:nutritional_info_stock_lot.field_nutritional_value_lot__value
 msgid "Value"
 msgstr "Значення"
+
+#. module: nutritional_info_stock_lot
+#: model:ir.model.fields,field_description:nutritional_info_stock_lot.field_nutritional_value_lot__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: nutritional_info_stock_lot
+#: model:ir.model.fields,field_description:nutritional_info_stock_lot.field_nutritional_value_lot__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: nutritional_info_stock_lot
+#: model_terms:ir.ui.view,arch_db:nutritional_info_stock_lot.product_normal_form_view
+msgid "Nutrition"
+msgstr "Харчова цінність"
+
+#. module: nutritional_info_stock_lot
+#: model:ir.actions.report,name:nutritional_info_stock_lot.action_nutritional_info_template_report
+msgid "Nutritional Info"
+msgstr "Харчова інформація"
+
+#. module: nutritional_info_stock_lot
+#: model:ir.model.fields,field_description:nutritional_info_stock_lot.field_stock_lot__nutritional_value_ids
+msgid "Nutritional Value"
+msgstr "Харчова цінність"

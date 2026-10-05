@@ -72,3 +72,21 @@ msgstr "Послідовність"
 #: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template_line__template_id
 msgid "Template"
 msgstr "Шаблон"
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_product__attribute_template_id
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_template__attribute_template_id
+msgid "Apply attribute template"
+msgstr "Застосувати шаблон атрибутів"
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template__write_uid
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template__write_date
+#: model:ir.model.fields,field_description:product_attribute_line_template.field_product_attribute_template_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

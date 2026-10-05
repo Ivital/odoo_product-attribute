@@ -19,3 +19,22 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_origin.view_product_product_form_variant
 msgid "Origin"
 msgstr "Походження"
+
+#. module: product_origin
+#: model:ir.model.fields,field_description:product_origin.field_product_product__state_id
+#: model:ir.model.fields,field_description:product_origin.field_product_template__state_id
+msgid "Country State of Origin"
+msgstr "Регіон країни походження"
+
+#. module: product_origin
+#: model:ir.model.fields,field_description:product_origin.field_product_product__country_id
+#: model:ir.model.fields,field_description:product_origin.field_product_template__country_id
+#: model_terms:ir.ui.view,arch_db:product_origin.product_template_search_view
+msgid "Country of Origin"
+msgstr "Країна походження"
+
+#. module: product_origin
+#: model:ir.model.fields,field_description:product_origin.field_product_product__state_id_domain
+#: model:ir.model.fields,field_description:product_origin.field_product_template__state_id_domain
+msgid "State Id Domain"
+msgstr "Домен ID стану"

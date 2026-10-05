@@ -98,3 +98,95 @@ msgstr "Дата початку"
 #: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
 msgid "Validity"
 msgstr "Строк дії"
+
+#. module: product_customerinfo
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_search_view
+msgid "Active Products"
+msgstr "Активні товари"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_code
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_tree_view
+msgid "Customer Product Code"
+msgstr "Код товару клієнта"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_name
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_tree_view
+msgid "Customer Product Name"
+msgstr "Назва товару клієнта"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__price_discounted
+msgid "Discounted Price"
+msgstr "Ціна зі знижкою"
+
+#. module: product_customerinfo
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__last_purchase_date
+msgid "Last Purchase"
+msgstr "Остання закупівля"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_customerinfo
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
+msgid "Other Information"
+msgstr "Інша інформація"
+
+#. module: product_customerinfo
+#: model:ir.model.fields.selection,name:product_customerinfo.selection__product_pricelist_assortment_item__base__partner
+#: model:ir.model.fields.selection,name:product_customerinfo.selection__product_pricelist_item__base__partner
+msgid "Partner Prices on the product form"
+msgstr "Ціни контрагента у формі товару"
+
+#. module: product_customerinfo
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
+msgid "Price List"
+msgstr "Прайс-лист"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_tmpl_id
+msgid "Product Template"
+msgstr "Шаблон товару"
+
+#. module: product_customerinfo
+#: model:ir.model,name:product_customerinfo.model_product_product
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_id
+msgid "Product Variant"
+msgstr "Варіант товару"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_uom
+msgid "Unit of Measure"
+msgstr "Одиниця вимірювання"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__product_variant_count
+msgid "Variant Count"
+msgstr "Кількість варіантів"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_product__variant_customer_ids
+#: model:ir.model.fields,field_description:product_customerinfo.field_product_template__variant_customer_ids
+msgid "Variant Customer"
+msgstr "Варіант клієнта"
+
+#. module: product_customerinfo
+#: model_terms:ir.ui.view,arch_db:product_customerinfo.product_customerinfo_form_view
+msgid "to"
+msgstr "до"

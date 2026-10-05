@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_product_packaging_calculator
 msgid "Compute product quantity to pick by packaging"
 msgstr "Обчислює кількість товару для комплектування за пакуванням"
+
+#. module: product_packaging_calculator
+#: model:ir.model.fields,field_description:product_packaging_calculator.field_product_qty_by_packaging_mixin__product_qty_by_packaging_display
+msgid "Qty by packaging"
+msgstr "Кількість за пакуванням"

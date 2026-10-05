@@ -52,3 +52,13 @@ msgstr "Сезонності"
 #: model:ir.ui.menu,name:product_simple_seasonality.seasonality_submenu
 msgid "Seasonality"
 msgstr "Сезонність"
+
+#. module: product_simple_seasonality
+#: model:ir.model.fields,field_description:product_simple_seasonality.field_seasonality__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_simple_seasonality
+#: model:ir.model.fields,field_description:product_simple_seasonality.field_seasonality__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

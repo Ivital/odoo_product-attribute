@@ -92,3 +92,37 @@ msgstr "Відсоток"
 #: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_product__ingredient_allergen_trace_ids
+#: model:ir.model.fields,field_description:product_ingredient.field_product_template__ingredient_allergen_trace_ids
+msgid "Allergen traces"
+msgstr "Сліди алергенів"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_product__ingredient_additional_info
+#: model:ir.model.fields,field_description:product_ingredient.field_product_template__ingredient_additional_info
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot__ingredient_additional_info
+msgid "Ingredient Additional Info"
+msgstr "Додаткова інформація про інгредієнт"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__write_uid
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__write_uid
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__write_date
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__write_date
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__scientific_name
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__scientific_name
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__scientific_name
+msgid "Scientific Name"
+msgstr "Наукова назва"
