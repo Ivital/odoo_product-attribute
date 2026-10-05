@@ -140,3 +140,13 @@ msgstr "Скинути ціну за одиницю"
 #: model:ir.model.fields,field_description:product_packaging_unit_price_calculator.field_product_package_price_wizard__selected_packaging_id
 msgid "Selected Packaging"
 msgstr "Вибране пакування"
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model.fields,help:product_packaging_unit_price_calculator.field_product_packaging__unit_price
+msgid "Price at which the product is sold to customers."
+msgstr "Ціна, за якою товар продається клієнтам."
+
+#. module: product_packaging_unit_price_calculator
+#: model:ir.model,name:product_packaging_unit_price_calculator.model_product_package_price_wizard
+msgid "Wizard to compute unit price from packaging price"
+msgstr "Майстер розрахунку ціни за одиницю з ціни пакування"

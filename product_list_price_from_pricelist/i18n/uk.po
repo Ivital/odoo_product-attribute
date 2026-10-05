@@ -69,3 +69,9 @@ msgid ""
 msgstr ""
 "ПОПЕРЕДЖЕННЯ: ціни завжди обчислюються для кількості 1, тому правила з "
 "мінімальною кількістю більше 1 не враховуватимуться"
+
+#. module: product_list_price_from_pricelist
+#: model:ir.model.fields,help:product_list_price_from_pricelist.field_res_company__base_pricelist_compute_price_id
+#: model:ir.model.fields,help:product_list_price_from_pricelist.field_res_config_settings__base_pricelist_compute_price_id
+msgid "Pricelist used to calculate the price of all products"
+msgstr "Прайс-лист, що використовується для розрахунку ціни всіх товарів"

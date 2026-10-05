@@ -44,3 +44,33 @@ msgstr "Маржа продажу (%)"
 #: model:ir.model.fields,field_description:product_pricelist_supplierinfo.field_product_pricelist_item__filter_supplier_id
 msgid "Supplier filter"
 msgstr "Фільтр постачальника"
+
+#. module: product_pricelist_supplierinfo
+#: model:ir.model.fields,help:product_pricelist_supplierinfo.field_product_pricelist_item__ignore_supplierinfo_margin
+msgid "Based on supplierinfo price without sale margin applied"
+msgstr "На основі ціни постачальника без застосування торгової націнки"
+
+#. module: product_pricelist_supplierinfo
+#: model:ir.model.fields,help:product_pricelist_supplierinfo.field_product_pricelist_item__no_supplierinfo_discount
+msgid ""
+"If checked, the discount set on the supplier info will be ignored in price "
+"calculation."
+msgstr ""
+"Якщо позначено, знижка з інформації постачальника ігноруватиметься під час "
+"розрахунку ціни."
+
+#. module: product_pricelist_supplierinfo
+#: model:ir.model.fields,help:product_pricelist_supplierinfo.field_product_customerinfo__sale_margin
+#: model:ir.model.fields,help:product_pricelist_supplierinfo.field_product_supplierinfo__sale_margin
+msgid "Margin to apply on price to obtain sale price"
+msgstr "Маржа, що застосовується до ціни для отримання ціни продажу"
+
+#. module: product_pricelist_supplierinfo
+#: model:ir.model.fields,help:product_pricelist_supplierinfo.field_product_pricelist_item__filter_supplier_id
+msgid "Only match prices from the selected supplier"
+msgstr "Зіставляти ціни лише з вибраного постачальника"
+
+#. module: product_pricelist_supplierinfo
+#: model:res.groups,name:product_pricelist_supplierinfo.group_supplierinfo_pricelist_sale_margin
+msgid "Show sale margin on Product Supplierinfo"
+msgstr "Показувати маржу продажу в інформації постачальника товару"

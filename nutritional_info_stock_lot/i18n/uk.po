@@ -82,3 +82,8 @@ msgstr "Харчова інформація"
 #: model:ir.model.fields,field_description:nutritional_info_stock_lot.field_stock_lot__nutritional_value_ids
 msgid "Nutritional Value"
 msgstr "Харчова цінність"
+
+#. module: nutritional_info_stock_lot
+#: model:ir.model,name:nutritional_info_stock_lot.model_nutritional_value_lot
+msgid "Nutritional values for a given lot"
+msgstr "Харчові значення для заданої партії"

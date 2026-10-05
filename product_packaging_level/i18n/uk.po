@@ -133,3 +133,21 @@ msgstr "Назва типу пакунка"
 #: model:ir.model.fields,field_description:product_packaging_level.field_product_packaging__qty_per_level
 msgid "Qty per package level"
 msgstr "Кількість на рівень пакунка"
+
+#. module: product_packaging_level
+#: model:product.packaging.level,name:product_packaging_level.product_packaging_level_default
+msgid "Default Level"
+msgstr "Рівень за замовчуванням"
+
+#. module: product_packaging_level
+#: model:ir.model.fields,help:product_packaging_level.field_product_packaging__name_policy
+#: model:ir.model.fields,help:product_packaging_level.field_product_packaging_level__name_policy
+msgid ""
+"config to set name of product packaging. Three options:- The package level "
+"name (default)- The package type name (if "
+"groups='stock.group_tracking_lot')- user defined: free text value defined"
+msgstr ""
+"Конфігурація назви пакування товару. Три варіанти: назва рівня пакування (за"
+" замовчуванням); назва типу пакування (якщо "
+"groups='stock.group_tracking_lot'); визначене користувачем довільне текстове"
+" значення."

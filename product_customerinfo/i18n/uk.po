@@ -195,3 +195,65 @@ msgstr "до"
 #: model:ir.model.fields,field_description:product_customerinfo.field_product_customerinfo__show_set_supplier_button
 msgid "Show Set Supplier Button"
 msgstr "Показувати кнопку «Встановити постачальника»"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__sequence
+msgid "Assigns the priority to the list of product vendor."
+msgstr "Призначає пріоритет списку постачальників товару."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__product_uom
+msgid "Customer specific unit of measure."
+msgstr "Одиниця виміру, специфічна для клієнта."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__date_end
+msgid "End date for this customer price"
+msgstr "Кінцева дата цієї ціни клієнта"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__product_id
+msgid ""
+"If not set, the vendor price will apply to all variants of this product."
+msgstr ""
+"Якщо не задано, ціна постачальника застосовуватиметься до всіх варіантів "
+"цього товару."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__price
+msgid "Price at which the product is sold to this customer."
+msgstr "Ціна, за якою товар продається цьому клієнту."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__date_start
+msgid "Start date for this customer price"
+msgstr "Початкова дата цієї ціни клієнта"
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__min_qty
+msgid ""
+"The minimum quantity to purchase for this customer to benefit from the "
+"price. Expressed in the customer's Product Unit of Measure if set, otherwise"
+" in the default Product Unit of Measure."
+msgstr ""
+"Мінімальна кількість, яку цей клієнт має придбати, щоб отримати цю ціну. "
+"Виражається в одиниці вимірювання товару клієнта, якщо її задано, інакше — у"
+" стандартній одиниці вимірювання товару."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__product_code
+msgid ""
+"This vendor's product code will be used when printing a request for "
+"quotation. Keep empty to use the internal one."
+msgstr ""
+"Код товару постачальника використовуватиметься під час друку запиту "
+"комерційної пропозиції. Залиште порожнім для внутрішнього коду."
+
+#. module: product_customerinfo
+#: model:ir.model.fields,help:product_customerinfo.field_product_customerinfo__product_name
+msgid ""
+"This vendor's product name will be used when printing a request for "
+"quotation. Keep empty to use the internal one."
+msgstr ""
+"Назва товару постачальника використовуватиметься під час друку запиту "
+"комерційної пропозиції. Залиште порожнім для внутрішньої назви."

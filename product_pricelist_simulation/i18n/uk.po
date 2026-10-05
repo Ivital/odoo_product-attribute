@@ -110,3 +110,13 @@ msgstr "Показувати в моделюванні"
 #: model:ir.model.fields,field_description:product_pricelist_simulation.field_wizard_preview_pricelist__line_ids
 msgid "Simulation Lines"
 msgstr "Рядки моделювання"
+
+#. module: product_pricelist_simulation
+#: model:ir.model,name:product_pricelist_simulation.model_wizard_preview_pricelist
+msgid "wizard - Preview Pricelist"
+msgstr "Майстер — попередній перегляд прайс-листа"
+
+#. module: product_pricelist_simulation
+#: model:ir.model,name:product_pricelist_simulation.model_wizard_preview_pricelist_line
+msgid "wizard - Preview Pricelist Line"
+msgstr "Майстер — рядок попереднього перегляду прайс-листа"

@@ -32,3 +32,8 @@ msgstr "Домен доступних значень атрибута"
 #: model:ir.model.fields,field_description:product_attribute_value_dependent_mixin.field_attribute_value_dependent_mixin__available_product_domain
 msgid "Available Product Domain"
 msgstr "Домен доступних товарів"
+
+#. module: product_attribute_value_dependent_mixin
+#: model:ir.model,name:product_attribute_value_dependent_mixin.model_attribute_value_dependent_mixin
+msgid "Attribute Value Dependent Mixin"
+msgstr "Міксин залежного значення атрибута"

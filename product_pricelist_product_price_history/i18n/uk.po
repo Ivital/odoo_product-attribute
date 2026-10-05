@@ -105,3 +105,8 @@ msgstr "Друкувати етикетки"
 #: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
 msgid "Search History"
 msgstr "Історія пошуку"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model,name:product_pricelist_product_price_history.model_product_pricelist_item_history
+msgid "Pricelist Item Price History"
+msgstr "Історія цін елемента прайс-листа"

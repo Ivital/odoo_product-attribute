@@ -126,3 +126,20 @@ msgstr "EPREL: синхронізувати дані товару"
 #: model_terms:ir.ui.view,arch_db:product_eprel.res_config_settings_view_form
 msgid "Eprel Integration"
 msgstr "Інтеграція EPREL"
+
+#. module: product_eprel
+#: model:ir.model,name:product_eprel.model_product_category_eprel
+msgid "EPREL Product Category"
+msgstr "Категорія товару EPREL"
+
+#. module: product_eprel
+#: model:ir.model.fields,help:product_eprel.field_product_product__eprel_energy_class
+#: model:ir.model.fields,help:product_eprel.field_product_template__eprel_energy_class
+msgid "Energy class label fetched from EPREL (e.g. A, B, C)."
+msgstr "Мітка класу енергоефективності, отримана з EPREL (наприклад A, B, C)."
+
+#. module: product_eprel
+#: model:ir.model.fields,help:product_eprel.field_product_product__eprel_registration_number
+#: model:ir.model.fields,help:product_eprel.field_product_template__eprel_registration_number
+msgid "The EPREL registration number fetched from the API."
+msgstr "Реєстраційний номер EPREL, отриманий через API."

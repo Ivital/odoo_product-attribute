@@ -171,3 +171,35 @@ msgstr "Усього рядків замовлення на продаж"
 #: model:ir.model.fields,field_description:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__total_products
 msgid "Total products analysed"
 msgstr "Усього проаналізовано товарів"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__cumulated_percentage
+msgid "Cumulated percentage of all the products with a better ranking"
+msgstr "Накопичений відсоток усіх товарів із кращим рейтингом"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__cumulated_percentage_products
+msgid "Cumulated percentage of total products analyzed with a better ranking"
+msgstr ""
+"Накопичений відсоток загальної кількості проаналізованих товарів із кращим "
+"рейтингом"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__percentage_products
+msgid "Percentage of total products analyzed"
+msgstr "Відсоток від загальної кількості проаналізованих товарів"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__percentage
+msgid "Percentage of total sale order lines"
+msgstr "Відсоток від загальної кількості рядків замовлення на продаж"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__ranking
+msgid "Ranking by number of oder lines"
+msgstr "Рейтинг за кількістю рядків замовлень"
+
+#. module: product_abc_classification_sale_stock
+#: model:ir.model.fields,help:product_abc_classification_sale_stock.field_abc_sale_stock_level_history__sum_cumulated_percentages
+msgid "Sum cumulated % so lines and cumulated % products"
+msgstr "Накопичена сума % рядків і накопичений % товарів"

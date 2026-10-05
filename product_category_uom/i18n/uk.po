@@ -27,3 +27,8 @@ msgstr "Типова одиниця вимірювання"
 #: model_terms:ir.ui.view,arch_db:product_category_uom.product_category_form_view
 msgid "This will apply to all products in the category"
 msgstr "Це буде застосовано до всіх товарів у категорії"
+
+#. module: product_category_uom
+#: model:ir.model.fields,help:product_category_uom.field_product_category__uom_id
+msgid "Default unit of measure used for products in this category."
+msgstr "Одиниця виміру за замовчуванням для товарів цієї категорії."

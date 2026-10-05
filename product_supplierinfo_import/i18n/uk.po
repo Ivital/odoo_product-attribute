@@ -187,3 +187,73 @@ msgstr "Файл даних постачальника"
 #: model:ir.model.fields,field_description:product_supplierinfo_import.field_product_supplierinfo_import__supplierinfo_filename
 msgid "Supplierinfo Filename"
 msgstr "Ім’я файлу даних постачальника"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import_template_line__header_name
+msgid "Copy it directly from the origin cell so it matches right"
+msgstr ""
+"Скопіюйте безпосередньо з вихідної комірки, щоб значення точно збігалося"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import__create_new_products
+msgid ""
+"If a product isn't found by its Search Field, it will be created with the "
+"provided data"
+msgstr ""
+"Якщо товар не знайдено за полем пошуку, його буде створено з наданими даними"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import_template__show_not_updated_rates
+msgid ""
+"If checked, at the end of the import, it will display the supplier's rate "
+"records that were not updated."
+msgstr ""
+"Якщо позначено, наприкінці імпорту буде показано записи ставок "
+"постачальника, які не було оновлено."
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import_template__only_update_existing
+msgid ""
+"If enabled, only existing supplierinfo records will be updated. New ones "
+"will not be created."
+msgstr ""
+"Якщо ввімкнено, оновлюватимуться лише наявні записи supplierinfo. Нові не "
+"створюватимуться."
+
+#. module: product_supplierinfo_import
+#: model:ir.model,name:product_supplierinfo_import.model_product_supplierinfo_import_template
+msgid "Templates to be detected when importing vendor pricelist"
+msgstr ""
+"Шаблони, які потрібно виявляти під час імпорту прайс-листа постачальника"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import_template__import_criteria_field_id
+msgid ""
+"The field that will be used to match the productsfrom the excel file with "
+"the ones in the Odoo database"
+msgstr ""
+"Поле, за яким товари з Excel-файлу зіставлятимуться з товарами в базі даних "
+"Odoo"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_supplierinfo_import_template__sheet_number
+msgid ""
+"The number of the sheet page in the spreadsheet where the pricelist are"
+msgstr "Номер аркуша в електронній таблиці, де розміщено прайс-лист"
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_product__product_code
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_template__product_code
+msgid "This is the supplier product code from Main Supplier."
+msgstr "Це код товару постачальника від основного постачальника."
+
+#. module: product_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_product__created_from_supplierinfo_import
+#: model:ir.model.fields,help:product_supplierinfo_import.field_product_template__created_from_supplierinfo_import
+msgid "This product was created with the vendor import wizard"
+msgstr "Цей товар було створено за допомогою майстра імпорту постачальника"
+
+#. module: product_supplierinfo_import
+#: model:ir.model,name:product_supplierinfo_import.model_product_supplierinfo_import_template_line
+msgid "Vendor import columns and fields"
+msgstr "Стовпці й поля імпорту постачальника"

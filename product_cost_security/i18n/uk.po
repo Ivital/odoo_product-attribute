@@ -29,3 +29,13 @@ msgstr "Редагувати"
 #: model:ir.model.fields,field_description:product_cost_security.field_product_template__user_can_update_cost
 msgid "User Can Update Cost"
 msgstr "Користувач може оновлювати собівартість"
+
+#. module: product_cost_security
+#: model:ir.model,name:product_cost_security.model_product_cost_security_mixin
+msgid "Product cost access control mixin"
+msgstr "Міксин контролю доступу до собівартості товару"
+
+#. module: product_cost_security
+#: model:ir.module.category,name:product_cost_security.module_category
+msgid "Product costs"
+msgstr "Собівартість товарів"

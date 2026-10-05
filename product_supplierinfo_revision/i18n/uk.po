@@ -101,3 +101,14 @@ msgstr "Дублювати інформацію про постачальник�
 #: model:ir.model.fields,help:product_supplierinfo_revision.field_product_supplierinfo__previous_price
 msgid "The price to purchase a product"
 msgstr "Ціна закупівлі товару"
+
+#. module: product_supplierinfo_revision
+#: model:ir.model,name:product_supplierinfo_revision.model_product_supplierinfo_duplicate_wizard
+msgid "Product Supplier Duplicate Wizard"
+msgstr "Майстер дублювання постачальника товару"
+
+#. module: product_supplierinfo_revision
+#: model:ir.model.fields,help:product_supplierinfo_revision.field_product_customerinfo__previous_info_id
+#: model:ir.model.fields,help:product_supplierinfo_revision.field_product_supplierinfo__previous_info_id
+msgid "Relation with previous info when duplicate line"
+msgstr "Зв’язок із попередньою інформацією при дублюванні рядка"

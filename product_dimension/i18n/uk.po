@@ -60,3 +60,9 @@ msgstr "ширина"
 #: model:ir.model.fields,field_description:product_dimension.field_product_template__dimensional_uom_id
 msgid "Dimensional UoM"
 msgstr "Розмірна одиниця вимірювання"
+
+#. module: product_dimension
+#: model:ir.model.fields,help:product_dimension.field_product_product__dimensional_uom_id
+#: model:ir.model.fields,help:product_dimension.field_product_template__dimensional_uom_id
+msgid "UoM for length, height, width"
+msgstr "Одиниця виміру довжини, висоти та ширини"

@@ -131,3 +131,18 @@ msgstr "Наукова назва"
 #: model:ir.model.fields,field_description:product_ingredient.field_stock_lot__ingredient_allergen_trace_ids
 msgid "Ingredient Allergen Trace"
 msgstr "Слід алергену інгредієнта"
+
+#. module: product_ingredient
+#: model:ir.model,name:product_ingredient.model_stock_lot_ingredient_value
+msgid "Ingredient values for a product lots."
+msgstr "Значення інгредієнтів для партій товару."
+
+#. module: product_ingredient
+#: model:ir.model,name:product_ingredient.model_product_ingredient_value
+msgid "Ingredient values for a product."
+msgstr "Значення інгредієнтів товару."
+
+#. module: product_ingredient
+#: model:ir.model,name:product_ingredient.model_product_ingredient
+msgid "Ingredients of a product."
+msgstr "Інгредієнти товару."

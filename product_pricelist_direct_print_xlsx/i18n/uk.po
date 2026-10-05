@@ -56,3 +56,13 @@ msgstr "Показувати внутрішні категорії"
 #: model_terms:ir.ui.view,arch_db:product_pricelist_direct_print_xlsx.view_product_pricelist_print
 msgid "XLSX Export Options"
 msgstr "Параметри експорту XLSX"
+
+#. module: product_pricelist_direct_print_xlsx
+#: model:ir.model,name:product_pricelist_direct_print_xlsx.model_report_product_pricelist_direct_print_xlsx_report
+msgid "Abstract model to export as xlsx the product pricelist"
+msgstr "Абстрактна модель для експорту прайс-листа товару в XLSX"
+
+#. module: product_pricelist_direct_print_xlsx
+#: model:ir.model,name:product_pricelist_direct_print_xlsx.model_product_pricelist_print
+msgid "Product Pricelist Print"
+msgstr "Друк прайс-листа товару"

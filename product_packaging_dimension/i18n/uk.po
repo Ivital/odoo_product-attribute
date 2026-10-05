@@ -88,3 +88,34 @@ msgstr "Мітка одиниці вимірювання ваги"
 #: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__volume_uom_id
 msgid "Packaging volume unit of measure"
 msgstr "Одиниця вимірювання об'єму пакування"
+
+#. module: product_packaging_dimension
+#: model:ir.model.constraint,message:product_packaging_dimension.constraint_product_packaging_positive_height
+msgid "Height must be positive"
+msgstr "Висота має бути додатною"
+
+#. module: product_packaging_dimension
+#: model:ir.model.constraint,message:product_packaging_dimension.constraint_product_packaging_positive_length
+msgid "Length must be positive"
+msgstr "Довжина має бути додатною"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__volume
+msgid "The Packaging volume"
+msgstr "Обсяг пакування"
+
+#. module: product_packaging_dimension
+#: model:ir.model.fields,help:product_packaging_dimension.field_product_packaging__length_uom_id
+msgid "UoM for packaging length, height, width (based on lenght UoM)"
+msgstr ""
+"Одиниця виміру довжини, висоти й ширини пакування (на основі ОВ довжини)"
+
+#. module: product_packaging_dimension
+#: model:ir.model.constraint,message:product_packaging_dimension.constraint_product_packaging_positive_weight
+msgid "Weight must be positive"
+msgstr "Вага має бути додатною"
+
+#. module: product_packaging_dimension
+#: model:ir.model.constraint,message:product_packaging_dimension.constraint_product_packaging_positive_width
+msgid "Width must be positive"
+msgstr "Ширина має бути додатною"

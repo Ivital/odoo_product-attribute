@@ -153,7 +153,7 @@ msgstr "Набір товарів"
 #. module: product_set
 #: model:ir.model.fields,help:product_set.field_product_set__ref
 msgid "Product set internal reference"
-msgstr ""
+msgstr "Внутрішнє посилання набору товарів"
 
 #. module: product_set
 #: model:ir.actions.act_window,name:product_set.act_open_product_set_line_view
@@ -170,7 +170,7 @@ msgstr "Рядки набору товарів"
 #. module: product_set
 #: model:ir.model.fields,help:product_set.field_product_set__name
 msgid "Product set name"
-msgstr ""
+msgstr "Назва набору товарів"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__set_line_ids
@@ -213,7 +213,7 @@ msgstr ""
 #. module: product_set
 #: model:ir.model,name:product_set.model_product_set_wizard
 msgid "Transient base model to define custom wizards"
-msgstr ""
+msgstr "Перехідна базова модель для визначення власних майстрів"
 
 #. module: product_set
 #: model:ir.model.fields,help:product_set.field_product_set__partner_id
@@ -221,6 +221,8 @@ msgid ""
 "You can attache the set to a specific partner or no one. If you don't "
 "specify one, it's going to be available for all of them."
 msgstr ""
+"Набір можна прив’язати до конкретного партнера або ні до кого. Якщо партнера"
+" не вказано, набір буде доступний усім."
 
 #. module: product_set
 #. odoo-python

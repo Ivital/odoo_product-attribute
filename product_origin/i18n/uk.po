@@ -38,3 +38,13 @@ msgstr "Країна походження"
 #: model:ir.model.fields,field_description:product_origin.field_product_template__state_id_domain
 msgid "State Id Domain"
 msgstr "Домен ID стану"
+
+#. module: product_origin
+#: model:ir.model.fields,help:product_origin.field_product_product__state_id_domain
+#: model:ir.model.fields,help:product_origin.field_product_template__state_id_domain
+msgid ""
+"Technical field, used to compute dynamically state domain depending on the "
+"country."
+msgstr ""
+"Технічне поле, що використовується для динамічного обчислення домену стану "
+"залежно від країни."

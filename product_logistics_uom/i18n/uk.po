@@ -85,3 +85,48 @@ msgstr "Вага в одиниці вимірювання товару"
 #: model_terms:ir.ui.view,arch_db:product_logistics_uom.res_config_settings_view_form
 msgid "Define your length unit of measure"
 msgstr "Визначте одиницю виміру довжини"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_res_config_settings__product_default_length_uom_id
+msgid "Default unit of measure to express product length"
+msgstr "Одиниця виміру за замовчуванням для довжини товару"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_res_config_settings__product_default_volume_uom_id
+msgid "Default unit of measure to express product volume"
+msgstr "Одиниця виміру за замовчуванням для обсягу товару"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_res_config_settings__product_default_weight_uom_id
+msgid "Default unit of measure to express product weight"
+msgstr "Одиниця виміру за замовчуванням для ваги товару"
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__show_volume_uom_warning
+#: model:ir.model.fields,help:product_logistics_uom.field_product_template__show_volume_uom_warning
+msgid ""
+"Technical field used to warn the user to change the volumeuom since the "
+"value for product_volume is too small and has beenrounded."
+msgstr ""
+"Технічне поле для попередження користувача про необхідність змінити одиницю "
+"обсягу, оскільки значення product_volume занадто мале й було округлене."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__show_weight_uom_warning
+#: model:ir.model.fields,help:product_logistics_uom.field_product_template__show_weight_uom_warning
+msgid ""
+"Technical field used to warn the user to change the weightuom since the "
+"value for product_weight is too small and has beenrounded."
+msgstr ""
+"Технічне поле для попередження користувача про необхідність змінити одиницю "
+"ваги, оскільки значення product_weight занадто мале й було округлене."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__product_volume
+msgid "The volume in the product's volume UOM."
+msgstr "Обсяг в одиниці виміру обсягу товару."
+
+#. module: product_logistics_uom
+#: model:ir.model.fields,help:product_logistics_uom.field_product_product__product_weight
+msgid "The weight in the product's weight UOM."
+msgstr "Вага в одиниці виміру ваги товару."

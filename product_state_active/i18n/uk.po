@@ -22,3 +22,14 @@ msgstr "Активувати товар"
 #: model:ir.model.fields,field_description:product_state_active.field_product_state__deactivate_product
 msgid "Deactivate Product"
 msgstr "Деактивувати товар"
+
+#. module: product_state_active
+#: model:ir.model.fields,help:product_state_active.field_product_state__deactivate_product
+msgid "Check this if you want to archive product when reaching this state."
+msgstr "Позначте, якщо потрібно архівувати товар при досягненні цього стану."
+
+#. module: product_state_active
+#: model:ir.model.fields,help:product_state_active.field_product_state__activate_product
+msgid "Check this if you want to un-archive product when reaching this state."
+msgstr ""
+"Позначте, якщо потрібно розархівувати товар при досягненні цього стану."

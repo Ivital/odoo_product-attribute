@@ -17,3 +17,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_lot_production_date.field_stock_lot__production_date
 msgid "Production Date"
 msgstr "Дата виробництва"
+
+#. module: stock_lot_production_date
+#: model:ir.model.fields,help:stock_lot_production_date.field_stock_lot__production_date
+msgid ""
+"This is the date when the goods with this lot/serial number have been "
+"produced."
+msgstr ""
+"Це дата, коли було вироблено товар із цим номером партії/серійним номером."

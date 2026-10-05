@@ -129,3 +129,23 @@ msgid ""
 msgstr ""
 "Коли життєвий цикл товару завершено й потрібно попереджати "
 "клієнта/запобігати замовленню в майбутньому."
+
+#. module: product_status
+#: model:product.state,name:product_status.product_state_discontinued
+msgid "Discontinued"
+msgstr "Знято з виробництва"
+
+#. module: product_status
+#: model:product.state,name:product_status.product_state_endoflife
+msgid "End-Of-Life"
+msgstr "Кінець життєвого циклу"
+
+#. module: product_status
+#: model:product.state,name:product_status.product_state_phaseout
+msgid "Phase Out"
+msgstr "Виведення з обігу"
+
+#. module: product_status
+#: model:ir.model.fields,help:product_status.field_product_product__product_state_id
+msgid "Select a state for this product"
+msgstr "Виберіть стан для цього товару"

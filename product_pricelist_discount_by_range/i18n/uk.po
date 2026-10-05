@@ -90,3 +90,13 @@ msgstr "Позиція прайс-листа"
 #: model:ir.model.fields.selection,name:product_pricelist_discount_by_range.selection__product_pricelist_item__discount_type__simple
 msgid "Simple"
 msgstr "Простий"
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model.constraint,message:product_pricelist_discount_by_range.constraint_product_pricelist_item_discount_range_min_gt_max
+msgid "Min value must be less than max value."
+msgstr "Мінімальне значення має бути меншим за максимальне."
+
+#. module: product_pricelist_discount_by_range
+#: model:ir.model,name:product_pricelist_discount_by_range.model_product_pricelist_item_discount_range
+msgid "Product Pricelist Item Discount Range"
+msgstr "Діапазон знижки елемента прайс-листа товару"

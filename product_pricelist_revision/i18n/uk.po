@@ -154,3 +154,20 @@ msgstr ""
 "                    буде застосовано для розрахунку нової ціни.\n"
 "                    <br/>\n"
 "                    <br/>"
+
+#. module: product_pricelist_revision
+#: model:ir.model.fields,help:product_pricelist_revision.field_product_pricelist_assortment_item__name
+#: model:ir.model.fields,help:product_pricelist_revision.field_product_pricelist_item__name
+msgid "Explicit rule name for this pricelist line."
+msgstr "Явна назва правила для цього рядка прайс-листа."
+
+#. module: product_pricelist_revision
+#: model:ir.model.fields,help:product_pricelist_revision.field_product_pricelist_assortment_item__previous_item_id
+#: model:ir.model.fields,help:product_pricelist_revision.field_product_pricelist_item__previous_item_id
+msgid "Relation with previous item when duplicate line"
+msgstr "Зв’язок із попереднім елементом при дублюванні рядка"
+
+#. module: product_pricelist_revision
+#: model:ir.model,name:product_pricelist_revision.model_product_pricelist_item_duplicate_wizard
+msgid "Wizard Product Pricelist Item Duplicate"
+msgstr "Майстер дублювання елемента прайс-листа товару"

@@ -95,3 +95,44 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:product_attribute_line_template.view_product_template_form_inherit_attribute_templates
 msgid "Attribute templates"
 msgstr "Шаблони атрибутів"
+
+#. module: product_attribute_line_template
+#: model:ir.model.constraint,message:product_attribute_line_template.constraint_product_attribute_template_name_company_uniq
+msgid "A template with the same name already exists for this company."
+msgstr "Шаблон із такою назвою вже існує для цієї компанії."
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,help:product_attribute_line_template.field_product_attribute_template_line__attribute_id
+msgid "Attribute to be added to the product when applying this template."
+msgstr ""
+"Атрибут, який буде додано до товару під час застосування цього шаблону."
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,help:product_attribute_line_template.field_product_attribute_template__company_id
+msgid "Leave empty to make it available for all companies."
+msgstr "Залиште порожнім, щоб зробити доступним для всіх компаній."
+
+#. module: product_attribute_line_template
+#: model:ir.model,name:product_attribute_line_template.model_product_attribute_template
+msgid "Product Attribute Template"
+msgstr "Шаблон атрибута товару"
+
+#. module: product_attribute_line_template
+#: model:ir.model,name:product_attribute_line_template.model_product_attribute_template_line
+msgid "Product Attribute Template Line"
+msgstr "Рядок шаблону атрибута товару"
+
+#. module: product_attribute_line_template
+#: model:ir.model.fields,help:product_attribute_line_template.field_product_product__attribute_template_id
+#: model:ir.model.fields,help:product_attribute_line_template.field_product_template__attribute_template_id
+msgid ""
+"Select a template to add its attributes to the product. The selection is "
+"cleared after applying."
+msgstr ""
+"Виберіть шаблон, щоб додати його атрибути до товару. Після застосування "
+"вибір буде очищено."
+
+#. module: product_attribute_line_template
+#: model:ir.model.constraint,message:product_attribute_line_template.constraint_product_attribute_template_line_template_attribute_uniq
+msgid "This attribute is already included in the template."
+msgstr "Цей атрибут уже включено до шаблону."

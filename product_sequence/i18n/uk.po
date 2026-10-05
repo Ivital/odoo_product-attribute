@@ -43,3 +43,45 @@ msgid ""
 msgstr ""
 "Використовувати батьківські категорії для визначення префікса, якщо для "
 "категорії не задано налаштувань префікса"
+
+#. module: product_sequence
+#. odoo-python
+#: code:addons/product_sequence/models/product_product.py:0
+msgid "-copy"
+msgstr "-копія"
+
+#. module: product_sequence
+#: model:ir.model.fields,help:product_sequence.field_product_category__code_prefix
+msgid ""
+"Prefix used to generate the internal reference for products created with "
+"this category. If blank the default sequence will be used."
+msgstr ""
+"Префікс для формування внутрішнього посилання товарів, створених у цій "
+"категорії. Якщо залишити порожнім, використовуватиметься стандартна "
+"послідовність."
+
+#. module: product_sequence
+#: model:ir.model.fields,help:product_sequence.field_product_product__default_code
+msgid ""
+"Set to '/' and save if you want a new internal reference to be proposed."
+msgstr ""
+"Встановіть '/' і збережіть, якщо потрібно запропонувати нове внутрішнє "
+"посилання."
+
+#. module: product_sequence
+#: model:ir.model.fields,help:product_sequence.field_product_category__sequence_id
+msgid ""
+"This field contains the information related to the numbering of the journal "
+"entries of this journal."
+msgstr ""
+"Це поле містить інформацію про нумерацію журнальних проводок цього журналу."
+
+#. module: product_sequence
+#: model:ir.model.fields,help:product_sequence.field_res_company__use_parent_categories_to_determine_prefix
+#: model:ir.model.fields,help:product_sequence.field_res_config_settings__use_parent_categories_to_determine_prefix
+msgid ""
+"Use parent categories to determine the prefix if the category has no "
+"settings for the prefix."
+msgstr ""
+"Використовувати батьківські категорії для визначення префікса, якщо в "
+"категорії немає власних налаштувань префікса."

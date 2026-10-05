@@ -126,3 +126,34 @@ msgstr "Статус товару"
 #: model:ir.model.fields,field_description:product_state.field_product_state__product_ids
 msgid "State Products"
 msgstr "Товари стану"
+
+#. module: product_state
+#: model:product.state,name:product_state.product_state_end
+msgid "End of Lifecycle"
+msgstr "Кінець життєвого циклу"
+
+#. module: product_state
+#: model:product.state,name:product_state.product_state_draft
+msgid "In Development"
+msgstr "У розробці"
+
+#. module: product_state
+#: model:ir.model.constraint,message:product_state.constraint_product_state_code_unique
+msgid "Product State Code must be unique."
+msgstr "Код стану товару має бути унікальним."
+
+#. module: product_state
+#: model:res.groups,name:product_state.group_product_state_manager
+msgid "Product State Manager"
+msgstr "Менеджер стану товару"
+
+#. module: product_state
+#: model:ir.model.fields,help:product_state.field_product_product__product_state_id
+#: model:ir.model.fields,help:product_state.field_product_template__product_state_id
+msgid "Select a state for this product"
+msgstr "Виберіть стан для цього товару"
+
+#. module: product_state
+#: model:ir.model.fields,help:product_state.field_product_state__sequence
+msgid "Used to order the States"
+msgstr "Використовується для впорядкування станів"

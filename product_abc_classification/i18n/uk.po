@@ -341,3 +341,43 @@ msgstr "Історія комунікації через вебсайт"
 #: model_terms:ir.ui.view,arch_db:product_abc_classification.abc_classification_profile_form_view
 msgid "e.g. Sale Profile"
 msgstr "напр. Профіль продажу"
+
+#. module: product_abc_classification
+#. odoo-python
+#: code:addons/product_abc_classification/models/abc_classification_profile.py:0
+msgid "%s (copy)"
+msgstr "%s (копія)"
+
+#. module: product_abc_classification
+#: model:ir.model,name:product_abc_classification.model_abc_classification_level
+msgid "ABC Classification Level"
+msgstr "Рівень класифікації ABC"
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_profile__auto_apply_computed_value
+msgid ""
+"Check this if you want to apply the computed level on each product that has "
+"this profile."
+msgstr ""
+"Позначте, якщо потрібно застосовувати обчислений рівень до кожного товару з "
+"цим профілем."
+
+#. module: product_abc_classification
+#: model:ir.model.fields,help:product_abc_classification.field_abc_classification_level__name
+msgid "Classification A, B or C"
+msgstr "Класифікація A, B або C"
+
+#. module: product_abc_classification
+#: model:ir.model.constraint,message:product_abc_classification.constraint_abc_classification_level_name_uniq
+msgid "Level name must be unique by profile"
+msgstr "Назва рівня має бути унікальною в профілі"
+
+#. module: product_abc_classification
+#: model:ir.model.constraint,message:product_abc_classification.constraint_abc_classification_product_level_product_level_uniq
+msgid "Only one level by profile by product allowed"
+msgstr "Дозволено лише один рівень на профіль і товар"
+
+#. module: product_abc_classification
+#: model:ir.model.constraint,message:product_abc_classification.constraint_abc_classification_profile_name_uniq
+msgid "Profile name must be unique"
+msgstr "Назва профілю має бути унікальною"

@@ -103,3 +103,8 @@ msgstr "Товари для затвердження"
 #: model:ir.actions.server,name:product_tier_validation.action_reject_product_validations
 msgid "Reject Validations"
 msgstr "Відхилити перевірки"
+
+#. module: product_tier_validation
+#: model:tier.definition,name:product_tier_validation.product_tier_definition
+msgid "Product Validation"
+msgstr "Перевірка товару"

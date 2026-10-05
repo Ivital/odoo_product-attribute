@@ -42,3 +42,14 @@ msgid ""
 msgstr ""
 "Якщо цінами керуєте лише за допомогою фіксованого прайс-листа, можна "
 "приховати поле «Ціна продажу»"
+
+#. module: product_form_pricelist
+#: model:res.groups,name:product_form_pricelist.group_no_list_price
+msgid "Hide list price on product"
+msgstr "Приховувати ціну продажу товару"
+
+#. module: product_form_pricelist
+#: model:ir.model.fields,help:product_form_pricelist.field_res_config_settings__group_no_list_price
+msgid "Use fixed price and hide the native 'Sales Price' field"
+msgstr ""
+"Використовувати фіксовану ціну та приховати стандартне поле «Ціна продажу»"

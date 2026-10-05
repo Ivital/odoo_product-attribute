@@ -27,3 +27,13 @@ msgstr "Звичайний"
 #: model:ir.model.fields.selection,name:product_category_type.selection__product_category__type__view
 msgid "View"
 msgstr "Перегляд"
+
+#. module: product_category_type
+#: model:ir.model.fields,help:product_category_type.field_product_category__type
+msgid ""
+"A category of the view type is a virtual category that can be used as the "
+"parent of another category to create a hierarchical structure."
+msgstr ""
+"Категорія типу «подання» — це віртуальна категорія, яку можна "
+"використовувати як батьківську для іншої категорії, щоб створити ієрархічну "
+"структуру."

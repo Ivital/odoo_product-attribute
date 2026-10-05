@@ -188,3 +188,83 @@ msgstr "Діагностика in vitro"
 #: model:ir.actions.act_window,name:product_medical.medicine_category_action
 msgid "Medicine Categories"
 msgstr "Категорії ліків"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_1
+msgid "CE Class I"
+msgstr "CE клас I"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_7
+msgid "CE Class III"
+msgstr "CE клас III"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_5
+msgid "CE Class IIa"
+msgstr "CE клас IIa"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_6
+msgid "CE Class IIb"
+msgstr "CE клас IIb"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_2
+msgid "CE Class Im"
+msgstr "CE клас Im"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_4
+msgid "CE Class Ir"
+msgstr "CE клас Ir"
+
+#. module: product_medical
+#: model:medical.class,name:product_medical.medical_class_3
+msgid "CE Class Is"
+msgstr "CE клас Is"
+
+#. module: product_medical
+#: model:ir.model.constraint,message:product_medical.constraint_in_vitro_diagnostic_name_uniq
+msgid "Diagnostic type already exists"
+msgstr "Тип діагностики вже існує"
+
+#. module: product_medical
+#: model:medicine.category,name:product_medical.category_d
+msgid "Drug-D"
+msgstr "Ліки-D"
+
+#. module: product_medical
+#: model:medicine.category,name:product_medical.category_e
+msgid "Drug-E"
+msgstr "Ліки-E"
+
+#. module: product_medical
+#: model:ir.model,name:product_medical.model_medical_class
+msgid "Medical Class"
+msgstr "Медичний клас"
+
+#. module: product_medical
+#: model:ir.model.constraint,message:product_medical.constraint_medical_class_name_uniq
+msgid "Medical class already exists"
+msgstr "Медичний клас уже існує"
+
+#. module: product_medical
+#: model:ir.model,name:product_medical.model_medicine_category
+msgid "Medicine Category"
+msgstr "Категорія ліків"
+
+#. module: product_medical
+#: model:ir.model.constraint,message:product_medical.constraint_medicine_category_name_uniq
+msgid "Medicine category already exists"
+msgstr "Категорія ліків уже існує"
+
+#. module: product_medical
+#: model:ir.model,name:product_medical.model_ppe_category
+msgid "PPE category"
+msgstr "Категорія ЗІЗ"
+
+#. module: product_medical
+#: model:ir.model.constraint,message:product_medical.constraint_ppe_category_name_uniq
+msgid "PPE category already exists"
+msgstr "Категорія ЗІЗ уже існує"

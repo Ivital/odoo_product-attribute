@@ -114,3 +114,13 @@ msgstr "Налаштуйте типи харчової інформації"
 #: model_terms:ir.ui.view,arch_db:nutritional_info.res_config_settings_view_form
 msgid "Nutritional Information"
 msgstr "Харчова інформація"
+
+#. module: nutritional_info
+#: model:ir.model,name:nutritional_info.model_nutritional_value
+msgid "Nutritional values for a given product"
+msgstr "Харчові значення для заданого товару"
+
+#. module: nutritional_info
+#: model:ir.model,name:nutritional_info.model_nutritional_type
+msgid "Types used to inform about nutritional values at products."
+msgstr "Типи для інформування про харчову цінність товарів."

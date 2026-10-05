@@ -92,3 +92,29 @@ msgstr "Назва поля ціни"
 #: model_terms:ir.ui.view,arch_db:product_multi_price.product_multi_price_form_view
 msgid "Product Multi Price"
 msgstr "Кілька цін товару"
+
+#. module: product_multi_price
+#: model:ir.model.constraint,message:product_multi_price.constraint_product_multi_price_multi_price_uniq
+msgid ""
+"A field name cannot be assigned to a product twice for the same company"
+msgstr "Назву поля не можна двічі призначити товару для тієї самої компанії"
+
+#. module: product_multi_price
+#: model:ir.model,name:product_multi_price.model_product_multi_price_name
+msgid "Multi Price Record Options"
+msgstr "Параметри запису кількох цін"
+
+#. module: product_multi_price
+#: model:ir.model.constraint,message:product_multi_price.constraint_product_multi_price_name_multi_price_name_uniq
+msgid "Prices Names must be unique per company"
+msgstr "Назви цін мають бути унікальними для кожної компанії"
+
+#. module: product_multi_price
+#: model:ir.model,name:product_multi_price.model_product_multi_price
+msgid "Product Multiple Prices"
+msgstr "Кілька цін товару"
+
+#. module: product_multi_price
+#: model:res.groups,name:product_multi_price.group_show_multi_prices
+msgid "Show multi prices"
+msgstr "Показувати кілька цін"

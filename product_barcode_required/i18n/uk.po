@@ -35,3 +35,14 @@ msgstr "Зробити штрихкод обов’язковим."
 #: model_terms:ir.ui.view,arch_db:product_barcode_required.res_config_settings_view_form
 msgid "Products barcode"
 msgstr "Штрихкод товарів"
+
+#. module: product_barcode_required
+#: model:ir.model,name:product_barcode_required.model_product_barcode_required_mixin
+msgid "Barcode required mixin"
+msgstr "Міксин обов’язкового штрихкоду"
+
+#. module: product_barcode_required
+#: model:ir.model.fields,help:product_barcode_required.field_res_company__product_variant_barcode_required
+#: model:ir.model.fields,help:product_barcode_required.field_res_config_settings__product_variant_barcode_required
+msgid "Make variant barcode required"
+msgstr "Вимагати штрихкод для варіанта"

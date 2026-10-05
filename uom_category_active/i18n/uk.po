@@ -22,3 +22,10 @@ msgstr "Активний"
 #: model_terms:ir.ui.view,arch_db:uom_category_active.uom_categ_view_search
 msgid "Archived"
 msgstr "Архівовано"
+
+#. module: uom_category_active
+#: model:ir.model.fields,help:uom_category_active.field_uom_category__active
+msgid ""
+"If unchecked, it will allow you to hide the product category without "
+"removing it."
+msgstr "Якщо вимкнено, можна приховати категорію товару, не видаляючи її."

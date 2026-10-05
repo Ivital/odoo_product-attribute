@@ -71,3 +71,8 @@ msgstr "Створити нові теги для категорій товар�
 #: model:ir.model.constraint,message:product_category_tag.constraint_product_category_tag_category_tag_name_uniq
 msgid "Tag name already exists!"
 msgstr "Тег із такою назвою вже існує!"
+
+#. module: product_category_tag
+#: model:ir.model,name:product_category_tag.model_product_category_tag
+msgid "Product Category Tag"
+msgstr "Тег категорії товару"

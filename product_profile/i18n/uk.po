@@ -100,3 +100,56 @@ msgid ""
 msgstr ""
 "Пояснення до вибраного профілю\n"
 "(не синхронізується з полями product.template)"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_product_profile__sequence
+msgid ""
+"Defines the order of the entries of profile_id field\n"
+"(not synchronized with product.template fields)"
+msgstr ""
+"Визначає порядок записів поля profile_id\n"
+"(не синхронізується з полями product.template)"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_res_config_settings__group_product_profile
+msgid ""
+"Display fields computed by product profile module.\n"
+"For debugging purpose see menu\n"
+"Sales > Configuration \n"
+"> Products\n"
+"> Product Profiles"
+msgstr ""
+"Показувати поля, обчислені модулем профілю товару.\n"
+"Для налагодження див. меню\n"
+"Продажі > Налаштування \n"
+"> Товари\n"
+"> Профілі товарів"
+
+#. module: product_profile
+#: model:res.groups,name:product_profile.group_product_profile_manager
+msgid "Manage Product Profiles"
+msgstr "Керування профілями товарів"
+
+#. module: product_profile
+#: model:ir.model,name:product_profile.model_product_profile
+msgid "Product Profile"
+msgstr "Профіль товару"
+
+#. module: product_profile
+#: model:ir.model,name:product_profile.model_product_mixin_profile
+msgid "Product Profile Mixin"
+msgstr "Міксин профілю товару"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_product_profile__name
+msgid ""
+"Profile name displayed on product template\n"
+"(not synchronized with product.template fields)"
+msgstr ""
+"Назва профілю, що відображається в шаблоні товару\n"
+"(не синхронізується з полями product.template)"
+
+#. module: product_profile
+#: model:ir.model.fields,help:product_profile.field_product_profile__type
+msgid "See 'detailed_type' field in product.template"
+msgstr "Див. поле 'detailed_type' у product.template"

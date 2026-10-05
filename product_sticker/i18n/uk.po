@@ -204,3 +204,33 @@ msgstr "Значення атрибута товару"
 #: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_form_view
 msgid "Sticker note that goes below image"
 msgstr "Примітка етикетки під зображенням"
+
+#. module: product_sticker
+#: model:ir.model.fields,help:product_sticker.field_product_sticker__show_sticker_note
+msgid "If checked, the note will be displayed with the sticker"
+msgstr "Якщо позначено, примітка відображатиметься разом із наліпкою"
+
+#. module: product_sticker
+#: model:ir.model.fields,help:product_sticker.field_product_sticker__image_size
+msgid "Max size of the Sticker. Max Width x Max Height"
+msgstr "Максимальний розмір наліпки: макс. ширина x макс. висота"
+
+#. module: product_sticker
+#: model:ir.model.fields,help:product_sticker.field_product_sticker__available_model_ids
+msgid "Models where this sticker is available. Empty means all models."
+msgstr "Моделі, для яких доступна ця наліпка. Порожньо означає всі моделі."
+
+#. module: product_sticker
+#: model:ir.model,name:product_sticker.model_product_sticker
+msgid "Product Sticker"
+msgstr "Наліпка товару"
+
+#. module: product_sticker
+#: model:ir.model,name:product_sticker.model_product_sticker_mixin
+msgid "Product Sticker Mixin"
+msgstr "Міксин наліпки товару"
+
+#. module: product_sticker
+#: model:ir.model.fields,help:product_sticker.field_product_sticker__note
+msgid "Used to display a note with the sticker"
+msgstr "Використовується для відображення примітки з наліпкою"

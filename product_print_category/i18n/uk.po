@@ -208,3 +208,52 @@ msgstr "Товари для друку"
 msgid ""
 "⚠️ If you change Print Category here, it will be changed in the product."
 msgstr "⚠️ Якщо змінити тут категорію друку, її буде змінено й у товарі."
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_product_print_category_mixin
+msgid "Abstract Model for Product Print Categories"
+msgstr "Абстрактна модель для категорій друку товарів"
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_report_product_print_category_report_pricetag
+msgid "Pricetag report"
+msgstr "Звіт цінника"
+
+#. module: product_print_category
+#: model:res.groups,name:product_print_category.manager
+msgid "Print Category Manager"
+msgstr "Менеджер категорій друку"
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_product_print_category_rule
+msgid "Print Category Rules for Product"
+msgstr "Правила категорії друку для товару"
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_product_print_category
+msgid "Print Category for Product"
+msgstr "Категорія друку для товару"
+
+#. module: product_print_category
+#: model:ir.model.fields,help:product_print_category.field_product_print_category_rule__company_id
+msgid "Restrict the access of this rule to the given company"
+msgstr "Обмежити доступ до цього правила вказаною компанією"
+
+#. module: product_print_category
+#: model:ir.model.fields,help:product_print_category.field_product_print_category_rule__main_category_id
+msgid ""
+"This rule will be applied only to products that belong to the given "
+"category, or to its children."
+msgstr ""
+"Це правило застосовуватиметься лише до товарів у вказаній категорії або її "
+"дочірніх категоріях."
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_product_print_wizard
+msgid "Wizard for printing products"
+msgstr "Майстер друку товарів"
+
+#. module: product_print_category
+#: model:ir.model,name:product_print_category.model_product_print_wizard_line
+msgid "Wizard line for printing products"
+msgstr "Рядок майстра друку товарів"
