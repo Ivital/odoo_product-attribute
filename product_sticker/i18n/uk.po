@@ -1,0 +1,122 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__product_attribute_id
+msgid "Attribute"
+msgstr "Атрибут"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__product_category_id
+msgid "Category"
+msgstr "Категорія"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__company_id
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Company"
+msgstr "Компанія"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_kanban_view
+msgid "Delete"
+msgstr "Видалити"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_1920
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_form_view
+msgid "Image"
+msgstr "Зображення"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_1024
+msgid "Image 1024"
+msgstr "Зображення 1024"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_128
+msgid "Image 128"
+msgstr "Зображення 128"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_256
+msgid "Image 256"
+msgstr "Зображення 256"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_512
+msgid "Image 512"
+msgstr "Зображення 512"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_size
+msgid "Image Size"
+msgstr "Розмір зображення"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__name
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_form_view
+msgid "Name"
+msgstr "Назва"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: product_sticker
+#: model:ir.actions.act_window,name:product_sticker.action_product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_attribute__sticker_ids
+#: model:ir.model.fields,field_description:product_sticker.field_product_attribute_value__sticker_ids
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker_mixin__sticker_ids
+#: model:ir.ui.menu,name:product_sticker.menu_product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_form_view
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_kanban_view
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_sticker_search_view
+msgid "Product Stickers"
+msgstr "Наліпки товарів"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: product_sticker
+#: model:ir.model.fields,field_description:product_sticker.field_product_sticker__image_64
+msgid "Small Image"
+msgstr "Мале зображення"
+
+#. module: product_sticker
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_attribute_view_form
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_template_form_view
+#: model_terms:ir.ui.view,arch_db:product_sticker.product_variant_easy_edit_view
+msgid "Stickers"
+msgstr "Наліпки"

@@ -12,3 +12,8 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_product_main_supplierinfo
 msgid "Product Main Vendor"
 msgstr "Основний постачальник товару"
+
+#. module: product_main_supplierinfo
+#: model:ir.model.fields,field_description:product_main_supplierinfo.field_product_product__main_seller_id
+msgid "Main Vendor"
+msgstr "Основний постачальник"

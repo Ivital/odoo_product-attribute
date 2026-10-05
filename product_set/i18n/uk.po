@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__active
@@ -25,7 +24,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_line_search
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_search
 msgid "Active"
-msgstr ""
+msgstr "Активний"
 
 #. module: product_set
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_form
@@ -46,20 +45,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_line_search
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_search
 msgid "All"
-msgstr ""
+msgstr "Усі"
 
 #. module: product_set
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_form
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_line_search
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_search
 msgid "Archived"
-msgstr ""
+msgstr "Архівовано"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__company_id
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__create_uid
@@ -82,7 +81,7 @@ msgstr "Назва для відображення"
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__display_type
 msgid "Display Type"
-msgstr ""
+msgstr "Тип відображення"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__id
@@ -111,19 +110,19 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:product_set.field_product_set__name
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__name
 msgid "Name"
-msgstr "Name"
+msgstr "Назва"
 
 #. module: product_set
 #: model:ir.model.fields.selection,name:product_set.selection__product_set_line__display_type__line_note
 msgid "Note"
-msgstr ""
+msgstr "Нотатка"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__partner_id
 #: model:ir.model.fields,field_description:product_set.field_product_set_wizard__partner_id
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_search
 msgid "Partner"
-msgstr ""
+msgstr "Партнер"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__product_id
@@ -149,7 +148,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_line_search
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_search
 msgid "Product set"
-msgstr ""
+msgstr "Набір товарів"
 
 #. module: product_set
 #: model:ir.model.fields,help:product_set.field_product_set__ref
@@ -161,7 +160,7 @@ msgstr ""
 #: model:ir.model,name:product_set.model_product_set_line
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_line_search
 msgid "Product set line"
-msgstr ""
+msgstr "Рядок набору товарів"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_wizard__product_set_line_ids
@@ -176,13 +175,13 @@ msgstr ""
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set__set_line_ids
 msgid "Products"
-msgstr ""
+msgstr "Товари"
 
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__quantity
 #: model:ir.model.fields,field_description:product_set.field_product_set_wizard__quantity
 msgid "Quantity"
-msgstr ""
+msgstr "Кількість"
 
 #. module: product_set
 #: model:ir.model.fields.selection,name:product_set.selection__product_set_line__display_type__line_section
@@ -192,7 +191,7 @@ msgstr ""
 #. module: product_set
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Послідовність"
 
 #. module: product_set
 #: model:product.set,name:product_set.product_set_services
@@ -203,7 +202,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_set.field_product_set_line__product_set_id
 #: model_terms:ir.ui.view,arch_db:product_set.view_product_set_form
 msgid "Set"
-msgstr ""
+msgstr "Набір"
 
 #. module: product_set
 #. odoo-python

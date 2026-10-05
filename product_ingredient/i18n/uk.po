@@ -1,0 +1,94 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__allergen_id
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__allergen_id
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__allergen_id
+msgid "Allergen"
+msgstr "Алерген"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_product__allergen_ids
+#: model:ir.model.fields,field_description:product_ingredient.field_product_template__allergen_ids
+#: model:product.attribute,name:product_ingredient.product_allergen_attribute
+msgid "Allergens"
+msgstr "Алергени"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__create_uid
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__create_uid
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__create_date
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__create_date
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__display_name
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__display_name
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__ingredient_id
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot__ingredient_ids
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__ingredient_id
+msgid "Ingredient"
+msgstr "Інгредієнт"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_product__ingredient_ids
+#: model:ir.model.fields,field_description:product_ingredient.field_product_template__ingredient_ids
+#: model_terms:ir.ui.view,arch_db:product_ingredient.product_normal_form_view
+#: model_terms:ir.ui.view,arch_db:product_ingredient.product_template_only_form_view
+#: model_terms:ir.ui.view,arch_db:product_ingredient.view_production_lot_form
+msgid "Ingredients"
+msgstr "Інгредієнти"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__is_allergen
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__is_allergen
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__is_allergen
+msgid "Is Allergen"
+msgstr "Є алергеном"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__lot_id
+msgid "Lot"
+msgstr "Партія"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__percentage
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__percentage
+msgid "Percentage"
+msgstr "Відсоток"
+
+#. module: product_ingredient
+#: model:ir.model.fields,field_description:product_ingredient.field_product_ingredient_value__sequence
+#: model:ir.model.fields,field_description:product_ingredient.field_stock_lot_ingredient_value__sequence
+msgid "Sequence"
+msgstr "Послідовність"

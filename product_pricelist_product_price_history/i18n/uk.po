@@ -1,0 +1,77 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__change_date
+msgid "Change Date"
+msgstr "Дата зміни"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: product_pricelist_product_price_history
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "Date"
+msgstr "Дата"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.actions.act_window,name:product_pricelist_product_price_history.action_product_pricelist_history
+#: model:ir.ui.menu,name:product_pricelist_product_price_history.menu_product_pricelist_history
+msgid "Historical Pricelist"
+msgstr "Історичний прайс-лист"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__new_price
+msgid "New Price"
+msgstr "Нова ціна"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__old_price
+msgid "Old Price"
+msgstr "Стара ціна"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__pricelist_id
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "Pricelist"
+msgstr "Прайс-лист"
+
+#. module: product_pricelist_product_price_history
+#: model:ir.model.fields,field_description:product_pricelist_product_price_history.field_product_pricelist_item_history__user_id
+#: model_terms:ir.ui.view,arch_db:product_pricelist_product_price_history.view_pricelist_item_history_search
+msgid "User"
+msgstr "Користувач"
